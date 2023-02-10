@@ -1,3 +1,4 @@
+import EasySteps from '@/component/Home/EasySteps'
 import Experience from '@/component/Home/Experience'
 import LatestProject from '@/component/Home/LatestProject'
 import React from 'react'
@@ -10,6 +11,7 @@ function index() {
       <Experience/>
      <YouGet/>
      <LatestProject/>
+     <EasySteps/>
     </div>
   )
 }

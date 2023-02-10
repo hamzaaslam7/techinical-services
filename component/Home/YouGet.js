@@ -16,12 +16,40 @@ export default class AutoPlayMethods extends Component {
   render() {
     const settings = {
       dots: true,
-      infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
     };
+    
     const data = [
       {
         Image: "http://www.thamesglobaluae.com/images/blog/07.jpg",
@@ -50,10 +78,11 @@ export default class AutoPlayMethods extends Component {
       },
     ];
     return (
-      <div className="lg:p-[80px] bg-[url('/images/bgImage.jpg')] bg-no-repeat bg-cover">
-        <div className="flex flex-col gap-6 mb-16">
+      <div className="bg-[url('/images/bgImage.jpg')] bg-no-repeat bg-cover">
+      <div className="lg:p-[80px] py-12 container mx-auto ">
+        <div className="flex flex-col md:gap-6 gap-2 mb-16">
           <p className="text-center grayClr">OUR SERVICES</p>
-          <h2 className="text-center text-5xl w-[50%] flex mx-auto purpleClr">
+          <h2 className="text-center md:text-5xl text-xl w-[50%] flex mx-auto purpleClr">
             What You Will Get Form Us Check It
           </h2>
           <p className="text-center grayClr font-thin">
@@ -92,7 +121,7 @@ export default class AutoPlayMethods extends Component {
             })}
           </Slider>
         </div>
-      </div>
+      </div></div>
     );
   }
 }

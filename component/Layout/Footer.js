@@ -2,9 +2,6 @@ import React from "react";
 function footer() {
   return (
     <>
-      <section className="mt-[80px] ">
-      
-      </section>{" "}
       <div className="text-white bg-[#120A03] px-[80px]">
         <div className="container items-center justify-between pt-10 mx-auto md:flex">
           <div className="flex flex-col">
@@ -20,7 +17,7 @@ function footer() {
             Contact Us{" "}
           </button>
         </div>
-        <div className="container mx-auto mt-28 md:mt-0 xl:pt-20">
+        <div className="container mx-auto mt-28 md:mt-0 xl:pt-12">
           <div className="md:grid md:grid-cols-2 xl:grid-cols-4 gap-4">
             <div className="">
               {" "}
@@ -28,7 +25,7 @@ function footer() {
                 <a href="/">
                   <img
                     className="h-8 md:h-12"
-                    src="./images/Amazon Publications Logo-02.svg"
+                    src="images/Logo.png"
                     alt="AmazonPublishigPros"
                   />
                 </a>
@@ -111,7 +108,7 @@ function footer() {
                 <h3 className="text-[28px]">Contact Us</h3>
                 <ul className="flex flex-col gap-3 pt-2 font-thin">
                   <li className="flex items-start gap-1">
-                    <img className="h-4 w-6 mt-1.5" src="/images/mapIcon.png" />
+                    <img className="h-6 w-6 " src="/images/map.png" />
                     <a className="flex" href="/">
                       {" "}
                       999 Riverview Drive - Suite 201, Totowa, NJ 07512
@@ -134,7 +131,7 @@ function footer() {
                     </a>
                   </li>
                   <li className="flex ">
-                    <img className="h-4 w-6 mt-1.5" src="/images/mobiel.svg" />
+                    <img className="h-6 w-6" src="/images/phone.png" />
                     <a href="tel:+1 (646) 458-4222"> +1 (646) 458-4222</a>
                   </li>
                 </ul>
@@ -145,18 +142,18 @@ function footer() {
         <div className="container justify-between py-8 mx-auto md:py-16 md:flex ">
           <div className="flex flex-row justify-between">
             <img
-              className="w-20 md:mx-2 h-7"
-              src="./images/googlePlay.png"
+              className="w-7 md:mx-2 h-7"
+              src="images/facebook.png"
               alt=""
             />
             <img
-              className="w-20 md:mx-2 h-7"
-              src="./images/scribd.png"
+              className="w-7 md:mx-2 h-7"
+              src="./images/instagram.png"
               alt=""
             />
-            <img className="w-20 md:mx-2 h-7" src="./images/kobo.png" alt="" />
-            <img className="w-20 md:mx-2 h-7" src="./images/ibook.png" alt="" />
-            <img className="w-20 md:mx-2 h-7" src="./images/hac.png" alt="" />
+            <img className="w-7 md:mx-2 h-7" src="images/linkedin.png" alt="" />
+            <img className="w-7 md:mx-2 h-7" src="images/twitter.png" alt="" />
+            <img className="w-7 md:mx-2 h-7" src="images/pinterest.png" alt="" />
           </div>
           <div>
             <p className=" mt-4 md:mt-0  text-[13px]">

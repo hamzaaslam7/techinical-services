@@ -108,7 +108,7 @@ const Navbar = () => {
               <div className="flex  items-center">
                 <h2 className={` ${scroll ? "text-black" : "text-white"}`}>
                   {" "}
-                  Logo
+                <img src="images/logo.png"/>
                 </h2>
                 
               </div>
