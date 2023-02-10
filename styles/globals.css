@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:Helvetica ;
+    src: url("../public/font/Helvetica.woff");
+    src:url("../public/font/Poppins-Medium.woff")
+  }
+  h1,h2{
+    font-family: 'Helvetica' ,'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  h3,h4,h5,h6,ul,li{
+    font-family:'Helvetica','Poppins', sans-serif;
+    font-weight: 600px;
+  }
+
+  body{
+    font-family: 'Helvetica' ,'Poppins', sans-serif;
+    font-weight: 400;
+  }
+.redClr{
+  color: #dc3545;
+}
+.purpleClr{
+  color: #292D77;
+}
+.redBg{
+  background:#dc3545;;
+}
+.grayClr{
+  color: #8d9297;
+}
+.text-High{
+  background: url(/images/textBg.jpg) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center center;
+}
+.slick-next{
+  display: none ! important;
+}
