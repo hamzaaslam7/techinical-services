@@ -1,10 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
-function footer() {
+function Footer() {
   return (
     <>
-      <section className="mt-[80px] ">
-      
-      </section>{" "}
+      <section className="mt-[80px] "></section>{" "}
       <div className="text-white bg-[#120A03] px-[80px]">
         <div className="container items-center justify-between pt-10 mx-auto md:flex">
           <div className="flex flex-col">
@@ -23,15 +23,14 @@ function footer() {
         <div className="container mx-auto mt-28 md:mt-0 xl:pt-20">
           <div className="md:grid md:grid-cols-2 xl:grid-cols-4 gap-4">
             <div className="">
-              {" "}
               <div className="">
-                <a href="/">
+                <Link href="/">
                   <img
                     className="h-8 md:h-12"
                     src="./images/Amazon Publications Logo-02.svg"
                     alt="AmazonPublishigPros"
                   />
-                </a>
+                </Link>
                 <p className="pt-4 font-thin text-justify">
                   Got a book inside you but not sure how to make it happen?
                   We’re here to help. Amazon Publishing Pros is one of the most
@@ -48,7 +47,7 @@ function footer() {
                 <h3 className="text-[28px]">About Us</h3>
                 <ul className="pt-2 font-thin">
                   <li>
-                    <a href="/">Home</a>
+                    <Link href="/">Home</Link>
                   </li>
                   <li>
                     <a href="about-us">About Us</a>
@@ -111,11 +110,15 @@ function footer() {
                 <h3 className="text-[28px]">Contact Us</h3>
                 <ul className="flex flex-col gap-3 pt-2 font-thin">
                   <li className="flex items-start gap-1">
-                    <img className="h-4 w-6 mt-1.5" src="/images/mapIcon.png" />
-                    <a className="flex" href="/">
+                    <img
+                      className="h-4 w-6 mt-1.5"
+                      src="/images/mapIcon.png"
+                      alt="image"
+                    />
+                    <Link className="flex" href="/">
                       {" "}
                       999 Riverview Drive - Suite 201, Totowa, NJ 07512
-                    </a>
+                    </Link>
                   </li>
                   <li className="flex gap-2 mx-1">
                     <svg
@@ -134,7 +137,11 @@ function footer() {
                     </a>
                   </li>
                   <li className="flex ">
-                    <img className="h-4 w-6 mt-1.5" src="/images/mobiel.svg" />
+                    <img
+                      className="h-4 w-6 mt-1.5"
+                      src="/images/mobiel.svg"
+                      alt="image"
+                    />
                     <a href="tel:+1 (646) 458-4222"> +1 (646) 458-4222</a>
                   </li>
                 </ul>
@@ -177,8 +184,7 @@ function footer() {
           </div>
         </div>
       </div>
-     
     </>
   );
 }
-export default footer;
+export default Footer;

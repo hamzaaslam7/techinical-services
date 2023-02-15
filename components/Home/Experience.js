@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import CountUp from "react-countup";
 function Experience() {
@@ -8,12 +9,16 @@ function Experience() {
           <div className="flex lg:flex-row flex-col lg:items-center md:items-start items-center ">
             <h2 className="text-High text-[90px] font-semibold">1997</h2>
             <span class="w-20 lg:block hidden h-full p-0.5 redBg  rotate-90"></span>
-           <div className="">
-           <div className="flex flex-col ">
-              <p className="grayClr font-medium text-xs">24 YEARS EXPERIENCE</p>
-              <h1 className="mx:text-[36px] text-3xl purpleClr">Success Experiences</h1>
+            <div className="">
+              <div className="flex flex-col ">
+                <p className="grayClr font-medium text-xs">
+                  24 YEARS EXPERIENCE
+                </p>
+                <h1 className="mx:text-[36px] text-3xl purpleClr">
+                  Success Experiences
+                </h1>
+              </div>
             </div>
-           </div>
           </div>
           <h3 className="grayClr text-[17px] my-5 ">
             We are a team of professional and skilled experts in all domestic
@@ -40,6 +45,7 @@ function Experience() {
                   <img
                     className="w-[40px] h-[40px]"
                     src="/images/briefcase.png"
+                    alt="iamge"
                   />
                 </div>
                 <div className="w-16">
@@ -65,6 +71,7 @@ function Experience() {
                   <img
                     className="w-[40px] h-[40px]"
                     src="/images/manIcon.png"
+                    alt="image"
                   />
                 </span>
                 <div className="w-16">
@@ -79,13 +86,19 @@ function Experience() {
                 <span>+</span>
               </div>
               <span class="w-full  p-0.5 bg-[#e8e8e8] "></span>
-              <p className="xl:px-0 lg:px-2 text-[17px] xl:text-center  purpleClr">Work Employed</p>
+              <p className="xl:px-0 lg:px-2 text-[17px] xl:text-center  purpleClr">
+                Work Employed
+              </p>
             </div>
             <div className="flex flex-col gap-2 w-full">
               <div className="flex redClr gap-4  items-center xl:justify-center  xl:px-0 px-2  text-[40px]">
                 <span className="">
                   {" "}
-                  <img className="w-[40px] h-[40px]" src="/images/cup.png" />
+                  <img
+                    className="w-[40px] h-[40px]"
+                    src="/images/cup.png"
+                    alt="image"
+                  />
                 </span>
                 <div className="w-16">
                   <CountUp start={0} end={24} duration={2.75}>
@@ -106,7 +119,7 @@ function Experience() {
           </div>
         </div>
         <div className="xl:w-2/5 xl:mx-0 mx-auto xl:order-2 order-1">
-          <img src="/images/experience.png" />
+          <img src="/images/experience.png" alt="image" />
         </div>
       </div>
     </div>

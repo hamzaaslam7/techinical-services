@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -64,7 +65,7 @@ export default class AutoPlayMethods extends Component {
         <link
           rel="stylesheet"
           type="text/css"
-          charset="UTF-8"
+          charSet="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
         <link
@@ -78,7 +79,7 @@ export default class AutoPlayMethods extends Component {
               return (
                 <>
                   <div className="flex mx-2 p-1 shadow-xl flex-col bg-white">
-                    <img src={val.Image} />
+                    <img src={val.Image} alt="Image" />
                     <div className="my-4 flex flex-col gap-6 text-center">
                       <h2 className="text-2xl purpleClr">{val.heading}</h2>
                       <p className="text-sm grayClr leading-7">{val.text}</p>

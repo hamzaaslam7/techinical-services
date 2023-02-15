@@ -3,15 +3,18 @@ module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components**/*.{js,ts,jsx,tsx}",
-    './node_modules/tw-elements/dist/js/**/*.js',
+    "./components/**/*.{js,ts,jsx,tsx}",
+
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        vuejs: "#925de9",
+        200: "#925de7",
+      },
+    },
   },
-  plugins: [
-    require('tw-elements/dist/plugin')
-  ],
-}
+  plugins: [require("tw-elements/dist/plugin")],
+};
