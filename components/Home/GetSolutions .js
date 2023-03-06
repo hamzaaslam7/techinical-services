@@ -7,7 +7,7 @@ export default function GetSolutions() {
         <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
           <div className="flex flex-col ">
             <p className="text-center  font-semibold tracking-widest text-[#ffffff] mb-3">
-              Don't Know What To Start With?
+              Dont Know What To Start With?
             </p>
             <h2 className="flex mx-auto lg:text-6xl lg:max-w-3xl md:text-4xl text-3xl text-center text-[#ffffff]">
               Get A Solutions For All Your Services
