@@ -165,3 +165,6 @@ body {
   border-radius: 5px;
   padding: 10px 0 !important;
 }
+.navbar-nav-div ul{
+  display: flex !important;
+}
