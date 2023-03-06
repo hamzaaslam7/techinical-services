@@ -26,7 +26,7 @@ const Navbar = () => {
     <div className="">
       <section>
         <nav
-          className={` fixed z-10 w-full  flex items-center justify-between  navbar navbar-expand-lg navbar-light lg:h-[80px] h-[65px] ${scroll ? "bg-[#FFFFFF] shadow-lg lg:text-black" : " bg-white "
+          className={` fixed z-10 w-full  flex items-center  navbar navbar-expand-lg navbar-light lg:h-[80px] h-[65px] ${scroll ? "bg-[#FFFFFF] shadow-lg lg:text-black" : " bg-white "
             }`}
         >
 
@@ -61,7 +61,7 @@ const Navbar = () => {
             </button>
             <div
               className={`${menu == true
-                  ? "md:w-[60%] w-[72%] ease-in-out duration-300"
+                  ? "md:w-[60%] w-[72%] lg:w-full ease-in-out duration-300"
                   : "w-0 ease-in-out duration-200"
                 } bg-[#292D77] lg:bg-transparent  menu-clapse fixed top-0 right-0 bottom-0 lg:relative xl:w-auto z-50 lg:w-auto xl:h-auto lg:h-auto flex xl:justify-end lg:justify-end items-start`}
             >

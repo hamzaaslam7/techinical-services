@@ -55,7 +55,7 @@ export default function index() {
                 <div className="relative flex items-center">
                   <FontAwesomeIcon
                     icon={faUser}
-                    className="absolute w-10 text-[#f98f04e2] -left-4"
+                    className="absolute w-6 text-[#f98f04e2] -left-4"
                   />
                   <input
                     type="text"
@@ -68,7 +68,7 @@ export default function index() {
                 <div className="relative flex items-center">
                   <FontAwesomeIcon
                     icon={faPhone}
-                    className="absolute w-10 text-[#f98f04e2] -left-4"
+                    className="absolute w-6 text-[#f98f04e2] -left-4"
                   />
                   <input
                     type="munber"
@@ -80,7 +80,7 @@ export default function index() {
                 <div className="relative flex items-center">
                   <FontAwesomeIcon
                     icon={faInbox}
-                    className="absolute w-10 text-[#f98f04e2] -left-4"
+                    className="absolute w-6 text-[#f98f04e2] -left-4"
                   />
                   <input
                     type="munber"
@@ -92,7 +92,7 @@ export default function index() {
                 <div className="relative flex items-center">
                   <FontAwesomeIcon
                     icon={faLocation}
-                    className="absolute w-10 text-[#f98f04e2] -left-4"
+                    className="absolute w-6 text-[#f98f04e2] -left-4"
                   />
                   <input
                     type="text"
@@ -122,7 +122,7 @@ export default function index() {
                     <ul className="list-none ">
                       <li className="">
                         <FontAwesomeIcon
-                          className="w-10 text-[#f98f04e2]"
+                          className="w-6  mr-3 text-[#f98f04e2]"
                           icon={faLocationDot}
                         />{" "}
                       </li>
@@ -139,7 +139,7 @@ export default function index() {
                     <ul className="list-none ">
                       <li className="">
                         <FontAwesomeIcon
-                          className="w-10 text-[#f98f04e2]"
+                          className="w-6  mr-3 text-[#f98f04e2]"
                           icon={faMobileRetro}
                         />{" "}
                       </li>
@@ -156,7 +156,7 @@ export default function index() {
                   <ul className="flex items-center list-none">
                     <li className="">
                       <FontAwesomeIcon
-                        className="w-10 text-[#f98f04e2]"
+                        className="w-6 mr-3 text-[#f98f04e2]"
                         icon={faLocationDot}
                       />{" "}
                     </li>

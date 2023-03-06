@@ -11,8 +11,12 @@ import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Head></Head>
-      <Script src="https://cdn.tailwindcss.com" />
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+        />
+      </Head>
       <Script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></Script>
       <Navbar />
       <div className="lg:pt-20 md:pt-14 pt-[4rem]">
