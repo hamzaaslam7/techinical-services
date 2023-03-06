@@ -6,50 +6,9 @@ function Footer() {
     <>
       {" "}
       <section className=""></section>{" "}
-      <div className="text-white pt-20 bg-[#120A03]">
-        <div className="container relative px-4   mx-auto 2xl:px-20 lg:px-6">
-          <div className="py-5 grayS absolute grid px-4 md:grid-cols-2  items-center left-0 right-0 -top-10 bg-white">
-            <div class=" flex items-center">
-              <img src="/images/inbox-icon.png" className=" h-[40px]" />
-              <div className="pl-3">
-                <h1 class="  text-2xl font-medium   purpleClr">
-                  Subscribe To Our Newsletter
-                </h1>
-                <p className="grayClr">
-                  At vero eos et accusamus et iusto oddummy.
-                </p>
-              </div>
-            </div>
-            <div class="relative flex border  border-gray-300 w-full">
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="email"
-                class="w-full bg-transparent rounded border-0  focus:border-0 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-              <button class="text-white redBg border-0 py-2 px-8 focus:outline-none hover:redBg  text-lg">
-                Button
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="container px-4 mx-auto 2xl:px-20 lg:px-6 items-center justify-between pt-10 md:flex">
-          <div className="flex flex-col">
-            <h2 className="text-[24px] leading-none md:text-[48px]">
-              Interested in Collaboration?
-            </h2>
-            <p className="mt-2 mb-2 md:mt-0 md:mb-0">
-              Challenge us.We want to work with you to create the really cool
-              stuff.
-            </p>
-          </div>
-          <button className="bg-[#F5931E] rounded-full  text-white hover:text-black h-[57px] w-[179px] ">
-            Contact Us{" "}
-          </button>
-        </div>
-        <div className="container mx-auto mt-28 md:mt-0 xl:pt-20">
-          <div className="md:grid md:grid-cols-2 xl:grid-cols-4 gap-4">
+      <div className="text-white pt-20 bg-[#292d77]">
+        <div className="container px-4 mx-auto md:mt-0 2xl:px-20 md:px-10 lg:px-6">
+          <div className="gap-4 md:grid md:grid-cols-2 xl:grid-cols-4">
             <div className="">
               <div className="">
                 <Link href="/">
@@ -132,7 +91,7 @@ function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex lg:justify-center">
               {" "}
               <div className="">
                 <h3 className="text-[28px]">Contact Us</h3>
@@ -177,21 +136,65 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="container justify-between py-8 mx-auto md:py-16 md:flex ">
+        <div className="container justify-between pt-8 mx-auto md:flex ">
           <div className="flex flex-row justify-between">
-            <img
-              className="w-20 md:mx-2 h-7"
-              src="./images/googlePlay.png"
-              alt=""
-            />
-            <img
-              className="w-20 md:mx-2 h-7"
-              src="./images/scribd.png"
-              alt=""
-            />
-            <img className="w-20 md:mx-2 h-7" src="./images/kobo.png" alt="" />
-            <img className="w-20 md:mx-2 h-7" src="./images/ibook.png" alt="" />
-            <img className="w-20 md:mx-2 h-7" src="./images/hac.png" alt="" />
+            <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
+              <Link href="" className="">
+                <svg
+                  fill="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </Link>
+              <Link href="" className="ml-3 ">
+                <svg
+                  fill="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </Link>
+              <Link href="" className="ml-3 ">
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </Link>
+              <Link href="" className="ml-3 ">
+                <svg
+                  fill="currentColor"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="0"
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="none"
+                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                  ></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </Link>
+            </span>
           </div>
           <div>
             <p className=" mt-4 md:mt-0  text-[13px]">

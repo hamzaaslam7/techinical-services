@@ -1,52 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 @font-face {
-    font-family:Helvetica ;
-    src: url("../public/font/Helvetica.woff");
-    src:url("../public/font/Poppins-Medium.woff")
-  }
-  h1,h2{
-    font-family: 'Helvetica' ,'Poppins', sans-serif;
-    font-weight: bold !important;
-  }
-  h3,h4,h5,h6,ul,li{
-    font-family:'Helvetica','Poppins', sans-serif;
-    font-weight: 600px;
-  }
-
-  body{
-    font-family: 'Helvetica' ,'Poppins', sans-serif;
-    font-weight: 400;
-  }
-  .yellow,
-.redClr{
+  font-family: Helvetica;
+  src: url("../public/font/Helvetica.woff");
+  src: url("../public/font/Poppins-Medium.woff");
+}
+h1,
+h2 {
+  font-family: "Helvetica", "Poppins", sans-serif;
+  font-weight: bold !important;
+}
+h3,
+h4,
+h5,
+h6,
+ul
+{
+  font-family: "Helvetica", "Poppins", sans-serif;
+  font-weight: 600px;
+}
+li {
+  font-family: "Helvetica", "Poppins", sans-serif;
+  font-weight: 400px;
+}
+body {
+  font-family: "Helvetica", "Poppins", sans-serif;
+  font-weight: 400;
+}
+.yellow,
+.redClr {
   color: #f98f04;
 }
 
-.purpleClr{
-  color: #292D77;
+.purpleClr {
+  color: #292d77;
 }
 /* .redBg{
   background:#dc3545;;
 } */
-.redBg{
+.redBg {
   background: #f98f04;
 }
-.grayClr{
+.grayClr {
   color: #8d9297;
 }
-.text-High{
+.text-High {
   background: url(/images/textBg.jpg) no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-position: center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center center;
 }
-.slick-next{
-  display: none ! important;
+.slick-next {
+  display: none !important;
 }
-
 
 .slick-dots {
   position: absolute;
@@ -77,7 +85,7 @@
   content: "•";
   text-align: center;
   opacity: 0.25;
-  color: #f98f04!important;
+  color: #f98f04 !important;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -93,7 +101,6 @@
   color: transparent;
   background: transparent;
 }
-
 
 .slick-slider.Carousal1 .slick-prev {
   left: 4% !important;
@@ -147,9 +154,13 @@
   color: #fff !important;
   background-color: #f98f04;
   background-blend-mode: multiply;
- 
 }
 .grayS {
   box-shadow: 0 0 25px 0 rgba(41, 61, 88, 0.118);
-  
+}
+
+.ScrollToTop {
+  background-color: #f98f04e2 !important;
+  border-radius: 5px;
+  padding: 10px 0 !important;
 }
