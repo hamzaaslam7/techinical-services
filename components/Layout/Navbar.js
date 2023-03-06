@@ -21,6 +21,7 @@ const Navbar = () => {
       }
     });
   });
+
   return (
     <div className="">
       <section>
@@ -41,6 +42,7 @@ const Navbar = () => {
                 </h2>
               </div>
             </Link>
+
             <button
               className="lg:hidden custom-navbar-toggler  md:inline-block inline-block border-0 py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline "
               type="button"
@@ -61,6 +63,7 @@ const Navbar = () => {
                 />
               </svg>
             </button>
+
             <div
               className={`${
                 menu == true
@@ -103,6 +106,7 @@ const Navbar = () => {
                     </svg>
                   </button>
                 </li>
+
                 <li className="w-full cursor-pointer lg:w-auto nav-item">
                   <Link
                     className="lg:w-[120px] w-full lg:h-[80px] flex items-center justify-center h-12"
@@ -118,6 +122,23 @@ const Navbar = () => {
                     </div>
                   </Link>
                 </li>
+
+                <li className="w-full cursor-pointer lg:w-auto nav-item">
+                  <Link
+                    className="lg:w-[120px] w-full lg:h-[80px] flex items-center justify-center h-12"
+                    href="/Services"
+                  >
+                    <div
+                      className={`w-full text-center  cursor-pointer text-[18px]   hover:text-[#d8232a]  ${
+                        router.asPath === "/Services" && "redClr "
+                      }`}
+                      onClick={() => setMenu(false)}
+                    >
+                      SERVICES
+                    </div>
+                  </Link>
+                </li>
+
                 <li className="w-full cursor-pointer lg:w-auto nav-item">
                   <Link
                     className="lg:w-[120px] w-full lg:h-[80px] flex items-center justify-center h-12"
@@ -129,18 +150,19 @@ const Navbar = () => {
                       }`}
                       onClick={() => setMenu(false)}
                     >
-                      About 2
+                      About US
                     </div>
                   </Link>
                 </li>
+
                 <li className="w-full cursor-pointer lg:w-auto nav-item">
                   <Link
                     className="lg:w-[120px] w-full lg:h-[80px] flex items-center justify-center h-12"
-                    href="/ContactUs"
+                    href="/Contact"
                   >
                     <div
                       className={`w-full text-center  text-[18px] cursor-pointer        hover:text-[#d8232a]  ${
-                        router.asPath === "/ContactUs" && "redClr "
+                        router.asPath === "/Contact" && "redClr "
                       }`}
                       onClick={() => setMenu(false)}
                     >

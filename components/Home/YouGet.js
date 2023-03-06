@@ -25,27 +25,30 @@ export default class AutoPlayMethods extends Component {
     };
     const data = [
       {
-        Image: "http://www.thamesglobaluae.com/images/blog/07.jpg",
+        Image:
+          "images/a-repairman-holding-a-spanner-and-posing-next-to-a-washing-machine-C3P123.jpg",
         heading: "This is the heading",
         text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of adocument or a typeface without relying on meaningful content.  Lorem ipsum may be used as a placeholder before final copy is available.",
       },
       {
-        Image: "http://www.thamesglobaluae.com/images/blog/07.jpg",
+        Image:
+          "images/Air-Conditioning & Ventilation System Installation & Maintenance.jpeg",
         heading: "This is the heading",
         text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of adocument or a typeface without relying on meaningful content.  Lorem ipsum may be used as a placeholder before final copy is available.",
       },
       {
-        Image: "http://www.thamesglobaluae.com/images/blog/07.jpg",
+        Image: "images/Carpentary and Wood Flooring Work.jpg",
         heading: "This is the heading2",
         text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of adocument or a typeface without relying on meaningful content.  Lorem ipsum may be used as a placeholder before final copy is available.",
       },
       {
-        Image: "http://www.thamesglobaluae.com/images/blog/07.jpg",
+        Image:
+          "images/Electrical Fittings Installation, Repairing & Maintenance.jpeg",
         heading: "This is the heading3",
         text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of adocument or a typeface without relying on meaningful content.  Lorem ipsum may be used as a placeholder before final copy is available.",
       },
       {
-        Image: "http://www.thamesglobaluae.com/images/blog/07.jpg",
+        Image: "images/Plaster Work.jpeg",
         heading: "This is the heading",
         text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of adocument or a typeface without relying on meaningful content.  Lorem ipsum may be used as a placeholder before final copy is available.",
       },
@@ -79,7 +82,11 @@ export default class AutoPlayMethods extends Component {
               return (
                 <>
                   <div className="flex mx-2 p-1 shadow-xl flex-col bg-white">
-                    <img src={val.Image} alt="Image" />
+                    <img
+                      className="h-48 object-cover "
+                      src={val.Image}
+                      alt="Image"
+                    />
                     <div className="my-4 flex flex-col gap-6 text-center">
                       <h2 className="text-2xl purpleClr">{val.heading}</h2>
                       <p className="text-sm grayClr leading-7">{val.text}</p>

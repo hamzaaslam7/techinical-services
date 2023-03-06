@@ -1,6 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faDiscord,
+  faFacebook,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+
 function Footer() {
   return (
     <>
@@ -25,11 +34,11 @@ function Footer() {
             <div className="">
               <div className="">
                 <Link href="/">
-                  <img
+                  {/* <img
                     className="h-8 md:h-12"
                     src="./images/Amazon Publications Logo-02.svg"
                     alt="AmazonPublishigPros"
-                  />
+                  /> */}
                 </Link>
                 <p className="pt-4 font-thin text-justify">
                   Got a book inside you but not sure how to make it happen?
@@ -109,14 +118,9 @@ function Footer() {
               <div className="">
                 <h3 className="text-[28px]">Contact Us</h3>
                 <ul className="flex flex-col gap-3 pt-2 font-thin">
-                  <li className="flex items-start gap-1">
-                    <img
-                      className="h-4 w-6 mt-1.5"
-                      src="/images/mapIcon.png"
-                      alt="image"
-                    />
-                    <Link className="flex" href="/">
-                      {" "}
+                  <li className="flex items-start gap-1 ">
+                    <FontAwesomeIcon className="mt-1" icon={faLocationDot} />
+                    <Link className="flex mt-0 " href="/">
                       999 Riverview Drive - Suite 201, Totowa, NJ 07512
                     </Link>
                   </li>
@@ -136,12 +140,9 @@ function Footer() {
                       info@amazaon-publications.com
                     </a>
                   </li>
-                  <li className="flex ">
-                    <img
-                      className="h-4 w-6 mt-1.5"
-                      src="/images/mobiel.svg"
-                      alt="image"
-                    />
+                  <li className="flex gap-1 ">
+                    <FontAwesomeIcon icon={faPhone} />
+
                     <a href="tel:+1 (646) 458-4222"> +1 (646) 458-4222</a>
                   </li>
                 </ul>
@@ -150,20 +151,19 @@ function Footer() {
           </div>
         </div>
         <div className="container justify-between py-8 mx-auto md:py-16 md:flex ">
-          <div className="flex flex-row justify-between">
-            <img
-              className="w-20 md:mx-2 h-7"
-              src="./images/googlePlay.png"
-              alt=""
-            />
-            <img
-              className="w-20 md:mx-2 h-7"
-              src="./images/scribd.png"
-              alt=""
-            />
-            <img className="w-20 md:mx-2 h-7" src="./images/kobo.png" alt="" />
-            <img className="w-20 md:mx-2 h-7" src="./images/ibook.png" alt="" />
-            <img className="w-20 md:mx-2 h-7" src="./images/hac.png" alt="" />
+          <div className="flex flex-row justify-between items-center w-28">
+            <a>
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a>
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a>
+              <FontAwesomeIcon icon={faDiscord} />
+            </a>
+            <a>
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
           </div>
           <div>
             <p className=" mt-4 md:mt-0  text-[13px]">
