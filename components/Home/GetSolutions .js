@@ -65,6 +65,7 @@ export default function GetSolutions() {
             </div>
             <div className="relative w-full mt-4 lg:mt-0 lg:w-1/3">
               <div className="relative w-full mx-auto bg-no-repeat bg-cover lg:w-full md:w-1/2 group">
+               
                 <img
                   src="/images/col-bgimage-3.jpg"
                   className="w-full h-[100%]"
