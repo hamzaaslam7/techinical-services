@@ -165,6 +165,23 @@ body {
   border-radius: 5px;
   padding: 10px 0 !important;
 }
-.navbar-nav-div ul{
-  display: flex !important;
+.navbar-nav-div{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+
+#menu-toggle:checked + #menu {
+  display: block;
+}
+@media(max-width:991px) {
+  .navbar-nav-div{
+    flex-direction: column;
+    align-items: center;
+justify-content: start;
+width: 100%;
+  }
+  
 }
