@@ -32,7 +32,7 @@ export default function Slider2() {
   var settings = {
     dots: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -80,8 +80,8 @@ export default function Slider2() {
                 />
 
             <div className="container px-6 mx-auto lg:px-20 md:px-10 ">
-            <div className="absolute top-0 bottom-0 flex items-center justify-center grid-cols-2 text-start carousel-caption md:block gird">
-                  <div className="flex flex-col items-start justify-center h-full gap-5 my-4">
+            <div className="absolute top-0 bottom-0 flex items-center justify-center grid-cols-1 text-start carousel-caption md:block gird">
+                  <div className="flex flex-col items-start justify-center h-full my-4">
                     <div className="">
                       <button className="px-2 py-1 mb-1 text-white md:mb-2 md:p-3 md:px-5 redBg">
                         NO:1 Technical Company{" "}
@@ -95,7 +95,7 @@ export default function Slider2() {
                           {Carousals.subHeading}{" "}
                         </h5>
                       </div>
-                      <p className="mb-2 text-xs text-black md:mb-5 lg:text-lg md:text-sm lg:pr-80">
+                      <p className="mb-2 text-xs text-black pr-7 md:mb-5 lg:text-lg md:text-sm lg:pr-80 md:pr-30">
                         {Carousals.text}
                       </p>
                       <div className="flex gap-3 text-black">
