@@ -10,7 +10,7 @@ export default function Footer2() {
             <div className="flex items-center ">
               <img src="/images/inbox-icon.png" className=" h-[40px]" />
               <div className="pl-3">
-                <h1 className="text-2xl font-medium  purpleClr">
+                <h1 className="text-2xl font-medium purpleClr">
                   Subscribe To Our Newsletter
                 </h1>
                 <p className="grayClr">
@@ -87,7 +87,7 @@ export default function Footer2() {
             <div className="w-full px-4 lg:w-1/4 md:w-1/2">
               <h2 className="mb-3 text-sm title-font font-mediumtracking-widest">Our Services
               </h2>
-              <ul className="mb-10 list-none">
+              <ul className="mb-10 text-sm list-none">
                 <li>
                   <Link href="" className="">Home </Link>
                 </li>
@@ -136,7 +136,7 @@ export default function Footer2() {
                 </div>
                 <button className="inline-flex flex-shrink-0 px-6 py-2 text-white bg-indigo-500 border-0 rounded lg:mt-2 xl:mt-0 focus:outline-none hover:bg-indigo-600">Button</button>
               </div>
-              <p className="mt-2 text-sm text-center  md:text-left">Bitters chicharrones fanny pack
+              <p className="mt-2 text-sm text-center md:text-left">Bitters chicharrones fanny pack
                 <br className="hidden lg:block" />waistcoat green juice
               </p>
             </div>

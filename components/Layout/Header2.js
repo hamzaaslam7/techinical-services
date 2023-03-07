@@ -60,7 +60,7 @@ export default function Header2() {
               />
             </svg>
           </button>
-          <div className={` flex lg:items-center lg:w-auto bg-[#292D77] lg:bg-transparent fixed top-0 right-0 bottom-0 lg:relative xl:w-auto z-50  ${isMenuOpen ? 'w-[50%]' : ' lg:inline-block md:hidden hidden'}`} style={{ transition: "all .3s ease-in-out" }}>
+          <div className={` flex lg:items-center lg:w-auto bg-[#292D77] lg:bg-transparent fixed top-0 right-0 bottom-0 lg:relative xl:w-auto z-50  ${isMenuOpen ? 'md:w-[50%] w-[70%]' : ' lg:inline-block md:hidden hidden'}`} style={{ transition: "all .3s ease-in-out" }}>
             <ul className="relative pt-4 text-white lg:text-black navbar-nav-div md:pt-0">
               <li className="flex justify-end w-full pt-3 pb-3 text-right lg:pt-0 lg:pb-0 ">
                 <button className="lg:hidden
@@ -114,9 +114,9 @@ export default function Header2() {
                   </div>
                 </Link>
               </li>
-              <li className="w-1/3 mx-auto cursor-pointer first-line: md:w-auto nav-item">
+              <li className="flex items-center justify-center w-1/3 mx-auto cursor-pointer first-line: md:w-auto nav-item">
                 <button
-                  className="w-[200px] whitespace-nowrap mx-auto lg:h-[45px] text-white px-3 redBg flex items-center justify-center h-12"
+                  className="lg:w-[200px] w-[150] whitespace-nowrap mx-auto lg:h-[45px] text-white px-3 lg:text-lg text-sm redBg flex items-center justify-center h-9"
                   onClick={toggleMenu}>
                   REQUEST QUOTE
                 </button>

@@ -32,7 +32,7 @@ export default function FollowSteps() {
       <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
         <div className="flex flex-col mb-16 ">
           <p className="text-center text-[#8d9297] mb-3">RECENTLY COMPLETED</p>
-          <h2 className="flex mx-auto text-2xl text-center lg:text-5xl md:text-4xl purpleClr">
+          <h2 className="flex mx-auto  text-center lg:text-5xl md:text-3xl text-[22px] purpleClr">
 
             Our Latest Projects
           </h2>

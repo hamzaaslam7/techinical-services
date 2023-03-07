@@ -52,7 +52,7 @@ export default function Services() {
         <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
           <div className="flex items-center">
             <div className="">
-              <h5 className="lg:text-5xl md:text-4xl text-3xl pl-5 border-l-[6px] border-[#f98f04]">
+              <h5 className="lg:text-5xl md:text-3xl text-[22px] pl-5 border-l-[6px] border-[#f98f04]">
                 Services
               </h5>
               <div className="flex mt-2">
@@ -73,7 +73,7 @@ export default function Services() {
         <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
           <div className="flex flex-col gap-3 mb-5 lg:gap-6 lg:mb-10 md:mb-6">
             <p className="text-center grayClr">OUR SERVICES</p>
-            <h2 className="text-center lg:text-5xl md:text-4xl text-3xl w-[50%] flex mx-auto purpleClr">
+            <h2 className="text-center lg:text-5xl md:text-3xl text-[22px] md:w-[50%] flex mx-auto purpleClr">
               What You Will Get Form Us Check It
             </h2>
             <p className="font-thin text-center grayClr">

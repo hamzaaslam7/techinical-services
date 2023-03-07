@@ -5,8 +5,6 @@ import "@/styles/globals.css";
 import Head from "next/head";
 import Script from "next/script";
 import ScrollToTop from "react-scroll-up";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import Header2 from "@/components/Layout/Header2";
 export default function App({ Component, pageProps }) {
   return (
@@ -25,9 +23,9 @@ export default function App({ Component, pageProps }) {
       </div>
       <Footer />
 
-      <ScrollToTop className="" showUnder={160}>
-        <span className="ScrollToTop ">
-          <FontAwesomeIcon icon={faChevronUp} className="w-10 text-white" />{" "}
+      <ScrollToTop className="bg-black" showUnder={160}>
+        <span className="w-10 h-10 bg-black ScrollToTop">
+          <img src="/images/arrow-down.svg" className="w-5 md:w-10" />{" "}
         </span>
       </ScrollToTop>
       {/* <Footer2 /> */}

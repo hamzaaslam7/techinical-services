@@ -1,12 +1,10 @@
-import Services from "@/components/services/Services";
-import React from "react";
+import Services from '@/components/services/Services'
+import React from 'react'
 
-function index() {
+export default function index() {
   return (
     <>
-      <Services />
+        <Services />
     </>
-  );
+  )
 }
-
-export default index;

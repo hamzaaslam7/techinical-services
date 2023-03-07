@@ -92,7 +92,7 @@ export default class AutoPlayMethods extends Component {
       <div className=" bg-[url('/images/bgImage.jpg')] bg-no-repeat bg-cover py-5">
         <div className="flex flex-col gap-6 mb-3 lg:mb-7 md:mb6">
           <p className="text-center grayClr">OUR SERVICES</p>
-          <h2 className="text-center text-3xl lg:text-5xl md:text-4xl md:w-[50%] flex mx-auto purpleClr">
+          <h2 className="text-center lg:text-5xl md:text-3xl text-[22px] md:w-[50%] flex mx-auto purpleClr">
             What You Will Get Form Us Check It
           </h2>
           <p className="font-thin text-center grayClr">
@@ -111,7 +111,7 @@ export default class AutoPlayMethods extends Component {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
-        <div className="container 2xl:px-20 lg:px-6 px-4 py-3 mx-auto">
+        <div className="container px-4 py-3 mx-auto 2xl:px-20 lg:px-6">
           <div className="gap-4">
             <Slider ref={(slider) => (this.slider = slider)} {...settings}>
               {data.map((val, key) => {
@@ -123,12 +123,12 @@ export default class AutoPlayMethods extends Component {
                           <img
                             src={val.Image}
                             alt="Image"
-                            className="w-full object-cover h-full"
+                            className="object-cover w-full h-full"
                           />
                         </div>
 
-                        <div className="flex flex-col gap-3  mb-4 text-center 2xl:p-7 lg:p-5 p-3">
-                          <h2 className="md:text-2xl text-xl purpleClr">{val.heading}</h2>
+                        <div className="flex flex-col gap-3 p-3 mb-4 text-center 2xl:p-7 lg:p-5">
+                          <h2 className="text-xl md:text-2xl purpleClr">{val.heading}</h2>
                           <p className="text-sm leading-6 grayClr">
                             {val.text}
                           </p>

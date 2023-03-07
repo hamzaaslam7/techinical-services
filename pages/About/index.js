@@ -15,7 +15,7 @@ function index() {
         <div className="container px-4 mx-auto 2xl:px-20 lg:Ppx-6">
           <div className="flex items-center">
             <div className="">
-              <h5 className="lg:text-5xl md:text-4xl text-3xl pl-5 border-l-[6px] border-[#f98f04]">About Us</h5>
+              <h5 className="lg:text-5xl md:text-3xl text-[22px] pl-5 border-l-[6px] border-[#f98f04]">About Us</h5>
               <div className="flex mt-2">
                 <Link className="" href='/About'>
                   <FontAwesomeIcon icon={faHouse} className="w-4 hover:text-[#f98f04] " />

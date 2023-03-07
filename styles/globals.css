@@ -177,6 +177,11 @@ body {
   display: block;
 }
 @media(max-width:991px) {
+  .ScrollToTop {
+    background-color: #f98f04e2 !important;
+    border-radius: 5px;
+    padding: 10px 0 !important;
+  }
   .navbar-nav-div{
     flex-direction: column;
     align-items: center;

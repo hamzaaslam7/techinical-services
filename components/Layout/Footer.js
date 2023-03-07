@@ -6,7 +6,7 @@ function Footer() {
     <>
       {" "}
       <section className=""></section>{" "}
-      <div className="text-white pt-20 bg-[#292d77]">
+      <div className="text-white lg:pt-20 md:pt-10 pt-6 bg-[#292d77]">
         <div className="container px-4 mx-auto md:mt-0 2xl:px-20 lg:px-6">
           <div className="gap-4 md:grid md:grid-cols-2 xl:grid-cols-4">
             <div className="">
@@ -18,7 +18,7 @@ function Footer() {
                     alt="AmazonPublishigPros"
                   />
                 </Link>
-                <p className="pt-4 font-thin text-justify">
+                <p className="pt-4 lg:text-[16px] md:text-sm font-thin text-xs ">
                   Got a book inside you but not sure how to make it happen?
                   We’re here to help. Amazon Publishing Pros is one of the most
                   successful platforms for self-publishing authors. From
@@ -30,9 +30,9 @@ function Footer() {
             </div>
             <div className="justify-center md:flex">
               {" "}
-              <div className="">
-                <h3 className="text-[28px]">About Us</h3>
-                <ul className="pt-2 font-thin">
+              <div className="mt-2 md:mt-0">
+                <h3 className="md:text-[28px] text-xl">About Us</h3>
+                <ul className="pt-2 flex flex-col gap-2 lg:text-[16px] md:text-sm font-thin text-xs">
                   <li>
                     <Link href="/">Home</Link>
                   </li>
@@ -57,10 +57,10 @@ function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="xl:justify-center md:flex">
-              <div className="">
-                <h3 className="text-[28px]">Services</h3>
-                <ul className="pt-2 font-thin">
+            <div className="xl:justify-center md:flex ">
+            <div className="mt-2 md:mt-0">
+                <h3 className="md:text-[28px] text-xl">Services</h3>
+                <ul className="pt-2 font-thin lg:text-[16px]  md:text-sm text-xs">
                   <li>
                     <a href="book-writing-service">Book Writing Services</a>
                   </li>
@@ -93,9 +93,9 @@ function Footer() {
             </div>
             <div className="flex lg:justify-center">
               {" "}
-              <div className="">
-                <h3 className="text-[28px]">Contact Us</h3>
-                <ul className="flex flex-col gap-3 pt-2 font-thin">
+              <div className="mt-2 md:mt-0">
+                <h3 className="md:text-[28px] text-xl">Contact Us</h3>
+                <ul className="flex flex-col gap-3 pt-2 lg:text-[16px] md:text-sm font-thin text-xs">
                   <li className="flex items-start gap-1">
                     <img
                       className="h-4 w-6 mt-1.5"
