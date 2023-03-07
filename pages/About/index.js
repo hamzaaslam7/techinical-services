@@ -12,7 +12,7 @@ function index() {
   return (
     <>
        <section className="py-16 text-white bg-[#292d77]">
-        <div className="container px-4 mx-auto 2xl:px-20 lg:PX-6">
+        <div className="container px-4 mx-auto 2xl:px-20 lg:Ppx-6">
           <div className="flex items-center">
             <div className="">
               <h5 className="lg:text-5xl md:text-4xl text-3xl pl-5 border-l-[6px] border-[#f98f04]">About Us</h5>

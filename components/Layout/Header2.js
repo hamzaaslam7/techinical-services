@@ -26,16 +26,16 @@ export default function Header2() {
     <>
       <header>
 
-        <nav className={` text-lg bg-white fixed w-full z-10  lg:py-3 py-2 ${scroll ? "bg-[#FFFFFF] shadow-lg lg:text-black" : " bg-white "} `} >
-        <div className='container w-full px-6 mx-auto lg:px-20 '>
-        <div className='flex flex-wrap items-center justify-between w-full px-4 py-4 md:py-0'>
+        <nav className={` text-lg bg-white fixed w-full z-10  py-2 ${scroll ? "bg-[#FFFFFF] shadow-lg lg:text-black" : " bg-white "} `} >
+        <div className='container w-full px-4 mx-auto 2xl:px-20 lg:px-6'>
+        <div className='flex flex-wrap items-center justify-between w-full py-4 md:py-0'>
            <div>
             <Link
-              className="lg:w-[200px] w-full lg:h-[80px] md:h-12 flex items-center h-12"
+              className="lg:w-[60px]  lg:h-[60px] md:h-12 flex items-center w-12 h-12"
               href="/"
             >
               <div className="flex items-center">
-                <img src="/images/logo.png" alt="logo" className="lg:w-[200px] w-full lg:h-[80px] md:h-14 flex items-center h-12" />
+                <img src="/images/header-logo.jpeg" alt="logo" className="lg:w-[60px]  lg:h-[60px] md:h-12 w-12 h-12 flex items-center h-12" />
               </div>
             </Link>
           </div>
@@ -117,7 +117,7 @@ export default function Header2() {
               </li>
               <li className="w-1/3 mx-auto cursor-pointer first-line: md:w-auto nav-item">
                 <button
-                  className="w-[150px] mx-auto lg:h-[45px] text-white redBg flex items-center justify-center h-12"
+                  className="w-[200px] whitespace-nowrap mx-auto lg:h-[45px] text-white px-3 redBg flex items-center justify-center h-12"
                   onClick={toggleMenu}>
                   REQUEST QUOTE
                 </button>

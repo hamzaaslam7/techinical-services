@@ -14,7 +14,7 @@ function Footer() {
                 <Link href="/">
                   <img
                     className="h-10 md:h-20"
-                    src="./images/footer-logo.png"
+                    src="./images/header-logo.jpeg"
                     alt="AmazonPublishigPros"
                   />
                 </Link>

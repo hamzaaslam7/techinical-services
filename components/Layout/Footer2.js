@@ -5,12 +5,12 @@ export default function Footer2() {
   return (
     <>
       <section className='-mb-10'>
-        <div className="container relative px-4   mx-auto 2xl:px-20 lg:px-6">
-          <div className="py-5 grayS  grid px-4 md:grid-cols-2  items-center  bg-white">
-            <div className=" flex items-center">
+        <div className="container relative px-4 mx-auto 2xl:px-20 lg:px-6">
+          <div className="grid items-center px-4 py-5 bg-white grayS md:grid-cols-2">
+            <div className="flex items-center ">
               <img src="/images/inbox-icon.png" className=" h-[40px]" />
               <div className="pl-3">
-                <h1 className="  text-2xl font-medium   purpleClr">
+                <h1 className="text-2xl font-medium  purpleClr">
                   Subscribe To Our Newsletter
                 </h1>
                 <p className="grayClr">
@@ -18,15 +18,15 @@ export default function Footer2() {
                 </p>
               </div>
             </div>
-            <div className="relative flex border  border-gray-300 w-full">
+            <div className="relative flex w-full border border-gray-300">
               <input
                 type="email"
                 id="email"
                 name="email"
                 placeholder="email"
-                className="w-full bg-transparent rounded border-0  focus:border-0 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-transparent border-0 rounded outline-none focus:border-0 focus:bg-transparent focus:ring-2 focus:ring-indigo-200"
               />
-              <button className="text-white redBg border-0 py-2 px-8 focus:outline-none hover:redBg  text-lg">
+              <button className="px-8 py-2 text-lg text-white border-0 redBg focus:outline-none hover:redBg">
                 Button
               </button>
             </div>
@@ -35,7 +35,7 @@ export default function Footer2() {
       </section>
       <footer className="bg-[#292D77] text-white body-font">
 
-        <div className="container px-4 mx-auto 2xl:px-20 lg:px-6 items-center justify-between pt-24 md:flex">
+        <div className="container items-center justify-between px-4 pt-24 mx-auto 2xl:px-20 lg:px-6 md:flex">
           <div className="flex flex-col">
             <h2 className="text-[24px] leading-none md:text-[48px]">
               Interested in Collaboration?
@@ -49,9 +49,9 @@ export default function Footer2() {
             Contact Us{" "}
           </button>
         </div>
-        <div className="container px-4 mx-auto 2xl:px-20 lg:PX-6 lg:pt-14 pb-6">
-          <div className="flex flex-wrap md:text-left text-center order-first">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+        <div className="container px-4 pb-6 mx-auto 2xl:px-20 lg:px-6 lg:pt-14">
+          <div className="flex flex-wrap order-first text-center md:text-left">
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2">
               <Link
                 className="lg:w-[200px] w-full lg:h-[80px] md:h-12 flex items-center h-12"
                 href="/"
@@ -60,15 +60,15 @@ export default function Footer2() {
                   <img src="/images/footer-logo.png" alt="logo" className="lg:w-[200px] w-full lg:h-[80px] md:h-14 flex items-center h-12" />
                 </div>
               </Link>
-              <ul className="list-none mb-10">
+              <ul className="mb-10 list-none">
                 <li>
                   <p>Thames Global is one the leading technical companies in the UAE and we are located at Al Qusais Industrial area 4,Dubai, United Arab Emirates
 
                   </p>
                 </li>
               </ul>
-              <h2 className="title-font font-mediumtracking-widest text-sm mb-3">CATEGORIES</h2>
-              <ul className="list-none grid grid-cols-2 mb-10">
+              <h2 className="mb-3 text-sm title-font font-mediumtracking-widest">CATEGORIES</h2>
+              <ul className="grid grid-cols-2 mb-10 list-none">
                 <li>
                   <p className="">Sat - Thu</p>
                 </li>
@@ -84,10 +84,10 @@ export default function Footer2() {
 
               </ul>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-mediumtracking-widest text-sm mb-3">Our Services
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2">
+              <h2 className="mb-3 text-sm title-font font-mediumtracking-widest">Our Services
               </h2>
-              <ul className="list-none mb-10">
+              <ul className="mb-10 list-none">
                 <li>
                   <Link href="" className="">Home </Link>
                 </li>
@@ -105,10 +105,10 @@ export default function Footer2() {
                 </li>
               </ul>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-mediumtracking-widest text-sm mb-3">Get Free Estimate
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2">
+              <h2 className="mb-3 text-sm title-font font-mediumtracking-widest">Get Free Estimate
               </h2>
-              <ul className="list-none mb-10">
+              <ul className="mb-10 list-none">
                 <li>
                   Thames Global Technical Services LLC
 
@@ -127,28 +127,28 @@ export default function Footer2() {
                 </li>
               </ul>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-mediumtracking-widest text-sm mb-3">SUBSCRIBE</h2>
-              <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
-                <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
-                  <label for="footer-field" className="leading-7 text-sm text-gray-600">Placeholder</label>
-                  <input type="text" id="footer-field" name="footer-field" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2">
+              <h2 className="mb-3 text-sm title-font font-mediumtracking-widest">SUBSCRIBE</h2>
+              <div className="flex flex-wrap items-end justify-center xl:flex-nowrap md:flex-nowrap lg:flex-wrap md:justify-start">
+                <div className="relative w-40 mr-2 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4">
+                  <label for="footer-field" className="text-sm leading-7 text-gray-600">Placeholder</label>
+                  <input type="text" id="footer-field" name="footer-field" className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-gray-300 rounded outline-none focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500" />
                 </div>
-                <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+                <button className="inline-flex flex-shrink-0 px-6 py-2 text-white bg-indigo-500 border-0 rounded lg:mt-2 xl:mt-0 focus:outline-none hover:bg-indigo-600">Button</button>
               </div>
-              <p className=" text-sm mt-2 md:text-left text-center">Bitters chicharrones fanny pack
-                <br className="lg:block hidden" />waistcoat green juice
+              <p className="mt-2 text-sm text-center  md:text-left">Bitters chicharrones fanny pack
+                <br className="hidden lg:block" />waistcoat green juice
               </p>
             </div>
           </div>
         </div>
         <div className="">
-          <div className="container px-4 mx-auto 2xl:px-20 lg:PX-6 py-6 flex items-center sm:flex-row flex-col">
-            <Link href="" className="flex title-font font-medium items-center md:justify-start justify-center">
+          <div className="container flex flex-col items-center px-4 py-6 mx-auto 2xl:px-20 lg:px-6 sm:flex-row">
+            <Link href="" className="flex items-center justify-center font-medium title-font md:justify-start">
             Copyright © 2021 Thames Global Techical Services. All rights reserved.
             </Link>
           
-            <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
               <Link href="" className="">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>

@@ -49,7 +49,7 @@ export default function Services() {
   return (
     <>
       <section className="py-16 text-white bg-[#292d77]">
-        <div className="container px-4 mx-auto 2xl:px-20 lg:PX-6">
+        <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
           <div className="flex items-center">
             <div className="">
               <h5 className="lg:text-5xl md:text-4xl text-3xl pl-5 border-l-[6px] border-[#f98f04]">
@@ -70,7 +70,7 @@ export default function Services() {
         </div>
       </section>
       <section className="py-6 lg:py-20 md:py-10 ">
-        <div className="container px-4 mx-auto 2xl:px-20 lg:PX-6">
+        <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
           <div className="flex flex-col gap-3 mb-5 lg:gap-6 lg:mb-10 md:mb-6">
             <p className="text-center grayClr">OUR SERVICES</p>
             <h2 className="text-center lg:text-5xl md:text-4xl text-3xl w-[50%] flex mx-auto purpleClr">

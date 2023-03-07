@@ -16,7 +16,7 @@ export default function index() {
   return (
     <>
       <section className="lg:py-16 md:py-10 py-6 text-white bg-[#292d77]">
-        <div className="container px-4 mx-auto 2xl:px-20 lg:PX-6">
+        <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
           <div className="flex items-center">
             <div className="">
               <h5 className="lg:text-5xl md:text-4xl text-3xl pl-5 border-l-[6px] border-[#f98f04]">
@@ -116,9 +116,9 @@ export default function index() {
               </button>
             </div>
             <div className="relative w-full mt-4 lg:mt-0 lg:w-1/3">
-              <div className="relative w-full mx-auto bg-no-repeat bg-cover lg:w-full md:w-1/2 group">
-                <div className="relative flex flex-col items-center justify-start w-full h-[100%] ">
-                  <div className="flex p-5">
+              <div className="relative w-full p-3 mx-auto bg-no-repeat bg-cover lg:p-6 md:p-4 lg:w-full group">
+                <div className="relative flex flex-col items-start  p-3 md:p-8 justify-start w-full h-[100%] ">
+                  <div className="flex mb-2 lg:mb-4">
                     <ul className="list-none ">
                       <li className="">
                         <FontAwesomeIcon
@@ -135,7 +135,7 @@ export default function index() {
                       <li>Office Direct Contact Person : Mr.Jinu</li>
                     </ul>
                   </div>
-                  <div className="flex w-full p-5">
+                  <div className="flex w-full mb-2 lg:mb-4">
                     <ul className="list-none ">
                       <li className="">
                         <FontAwesomeIcon
@@ -153,7 +153,7 @@ export default function index() {
                       </li>
                     </ul>
                   </div>
-                  <ul className="flex items-center list-none">
+                  <ul className="flex items-center mb-2 list-none lg:mb-3">
                     <li className="">
                       <FontAwesomeIcon
                         className="w-6 mr-3 text-[#f98f04e2]"
@@ -166,7 +166,7 @@ export default function index() {
                       </a>{" "}
                     </li>
                   </ul>
-                  <div className="flex w-full pl-8 mt-3">
+                  <div className="flex w-full">
                   <span className="inline-flex justify-center p-0 mt-4 sm:mr-auto sm:mt-0 sm:justify-start">
                     <Link href="" className="">
                       <svg
