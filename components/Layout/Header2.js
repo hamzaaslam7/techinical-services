@@ -34,14 +34,14 @@ export default function Header2() {
             <div className="flex flex-wrap items-center justify-between w-full md:py-0">
               <div>
                 <Link
-                  className="lg:w-[60px]  lg:h-[60px] md:h-16 md:w-16 flex items-center w-12 h-12"
+                  className="lg:w-[60px]  lg:h-[60px] md:h-14 md:w-14 flex items-center w-12 h-12"
                   href="/"
                 >
                   <div className="flex items-center">
                     <img
                       src="/images/header-logo.jpeg"
                       alt="logo"
-                      className="lg:w-[60px]  lg:h-[60px] md:h-16 w-12 md:w-16 flex items-center h-12"
+                      className="lg:w-[60px]  lg:h-[60px] md:h-14 w-12 md:w-14 flex items-center h-12"
                     />
                   </div>
                 </Link>

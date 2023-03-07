@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
       <Script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></Script>
       {/* <Navbar /> */}
       <Header2 />
-      <div className="lg:pt-20 md:pt-14 pt-[4rem]">
+      <div className="lg:pt-20 md:pt-[4.2rem] pt-[4rem]">
         <Component {...pageProps} />
       </div>
       <Footer />
