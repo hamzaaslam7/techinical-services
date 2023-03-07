@@ -80,7 +80,7 @@ export default function Slider2() {
                 />
 
             <div className="container px-6 mx-auto lg:px-20 md:px-10 ">
-            <div className="absolute top-0 flex items-center justify-center hidden grid-cols-2 text-start carousel-caption md:block gird">
+            <div className="absolute top-0 bottom-0 flex items-center justify-center hidden grid-cols-2 text-start carousel-caption md:block gird">
                   <div className="flex flex-col items-start justify-center h-full gap-5 my-4">
                     <div className="">
                       <button className="p-3 px-5 mb-2 text-white redBg">
