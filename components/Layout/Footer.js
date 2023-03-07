@@ -7,7 +7,7 @@ function Footer() {
       {" "}
       <section className=""></section>{" "}
       <div className="text-white pt-20 bg-[#292d77]">
-        <div className="container px-4 mx-auto md:mt-0 2xl:px-20 md:px-10 lg:px-6">
+        <div className="container px-4 mx-auto md:mt-0 2xl:px-20 lg:px-6">
           <div className="gap-4 md:grid md:grid-cols-2 xl:grid-cols-4">
             <div className="">
               <div className="">
@@ -136,7 +136,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="container justify-between pt-8 mx-auto md:flex ">
+        <div className="container justify-between px-4 pt-8 mx-auto 2xl:px-20 lg:px-6 md:flex ">
           <div className="flex flex-row justify-between">
             <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
               <Link href="" className="">

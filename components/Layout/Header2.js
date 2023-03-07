@@ -26,16 +26,16 @@ export default function Header2() {
     <>
       <header>
 
-        <nav className={` text-lg bg-white fixed w-full z-10  py-2 ${scroll ? "bg-[#FFFFFF] shadow-lg lg:text-black" : " bg-white "} `} >
+        <nav className={` text-lg bg-white fixed w-full z-10 lg:py-3 py-2 ${scroll ? "bg-[#FFFFFF] shadow-lg lg:text-black" : " bg-white "} `} >
         <div className='container w-full px-4 mx-auto 2xl:px-20 lg:px-6'>
-        <div className='flex flex-wrap items-center justify-between w-full py-4 md:py-0'>
+        <div className='flex flex-wrap items-center justify-between w-full md:py-0'>
            <div>
             <Link
-              className="lg:w-[60px]  lg:h-[60px] md:h-12 flex items-center w-12 h-12"
+              className="lg:w-[60px]  lg:h-[60px] md:h-16 md:w-16 flex items-center w-12 h-12"
               href="/"
             >
               <div className="flex items-center">
-                <img src="/images/header-logo.jpeg" alt="logo" className="lg:w-[60px]  lg:h-[60px] md:h-12 w-12 h-12 flex items-center h-12" />
+                <img src="/images/header-logo.jpeg" alt="logo" className="lg:w-[60px]  lg:h-[60px] md:h-16 w-12 md:w-16 flex items-center h-12" />
               </div>
             </Link>
           </div>
