@@ -34,15 +34,15 @@ export default function LatestProject() {
     },
   ];
   return (
-    <section className="lg:py-20 md:py-10 py-6 Latest-Projects">
-      <div className="container 2xl:px-20 lg:px-6 px-4 mx-auto">
-        <div className="flex flex-col lg:gap-6 text-white md:gap-4 gap-3">
-          <p className="text-center grayClr">RECENTLY COMPLETED</p>
-          <h2 className=" lg:mb-10 md:mb-8 mb-4 lg:text-5xl md:text-4xl text-3xl text-center ">
+    <section className="py-6 lg:py-20 md:py-10 Latest-Projects">
+      <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
+        <div className="flex flex-col gap-3 text-white lg:gap-6 md:gap-4">
+          <p className="text-sm text-center md:text-lg grayClr">RECENTLY COMPLETED</p>
+          <h2 className="mb-4 text-2xl text-center lg:mb-10 md:mb-8 lg:text-5xl md:text-4xl">
             Our Latest Projects
           </h2>
         </div>
-        <div className="grid grid-cols-1 gap-4 md:gap-2 p-3 lg:p-6 bg-white lg:grid-cols-3 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-4 p-3 bg-white md:gap-2 lg:p-6 lg:grid-cols-3 md:grid-cols-2">
           {cards.map((cards, key) => {
             return (
               <>
@@ -60,7 +60,7 @@ export default function LatestProject() {
                     <div className="relative flex items-center justify-center w-full h-full border">
                       <div className="">
                         <h4 className="text-[#f98f04]">{cards.name}</h4>
-                        <a className="hover:yellow text-white text-2xl cursor-pointer font-medium ">
+                        <a className="text-2xl font-medium text-white cursor-pointer hover:yellow ">
                           {cards.status}
                         </a>
                         <div className="w-12 pt-4 mx-auto border-b-4 border-[#f98f04]"></div>

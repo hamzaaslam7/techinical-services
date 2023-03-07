@@ -75,36 +75,36 @@ export default function Slider2() {
               <div className="relative w-full active">
                 <img
                   src={Carousals.Image}
-                  className="block w-full 2xl:h-[700px] lg:h-[550px] "
+                  className="block w-full 2xl:h-[700px] lg:h-[550px] md:h-[450px] h-[300px]"
                   alt="Motorbike Smoke"
                 />
 
             <div className="container px-6 mx-auto lg:px-20 md:px-10 ">
-            <div className="absolute top-0 bottom-0 flex items-center justify-center hidden grid-cols-2 text-start carousel-caption md:block gird">
+            <div className="absolute top-0 bottom-0 flex items-center justify-center grid-cols-2 text-start carousel-caption md:block gird">
                   <div className="flex flex-col items-start justify-center h-full gap-5 my-4">
                     <div className="">
-                      <button className="p-3 px-5 mb-2 text-white redBg">
+                      <button className="px-2 py-1 mb-1 text-white md:mb-2 md:p-3 md:px-5 redBg">
                         NO:1 Technical Company{" "}
                       </button>
-                      <div className="flex flex-col gap-1 mb-2 font-bold text-black uppercase">
-                        <h5 className="text-3xl 2xl:text-8xl lg:text-7xl md:text-4xl">
+                      <div className="flex flex-col gap-1 font-bold text-black uppercase md:mb-2">
+                        <h5 className="text-[22px] 2xl:text-8xl lg:text-7xl md:text-3xl">
                           {Carousals.heading}
                         </h5>
-                        <h5 className="text-3xl 2xl:text-8xl lg:text-7xl md:text-4xl">
+                        <h5 className="text-[22px] 2xl:text-8xl lg:text-7xl md:text-3xl">
                         
                           {Carousals.subHeading}{" "}
                         </h5>
                       </div>
-                      <p className="mb-5 text-black lg:pr-80">
+                      <p className="mb-2 text-xs text-black md:mb-5 lg:text-lg md:text-sm lg:pr-80">
                         {Carousals.text}
                       </p>
                       <div className="flex gap-3 text-black">
-                        <button className="border p-3 px-5 border-[#292d77] hover:bg-[#292d77] hover:text-white purpleClr text-sm">
+                        <button className="border lg:p-3 md:px-5 py-1 px-2 border-[#292d77] hover:bg-[#292d77] hover:text-white purpleClr whitespace-nowrap text-sm">
                           {Carousals.button}
                         </button>
-                        <span class="w-14 h-14 rounded-full  p-0.5 redBg hover:bg-[#292d77]  rotate-90"></span>
-                        {Carousals.button2}
-                        <button> </button>
+                        <span class="md:w-14 md:h-14 w-6 h-6 rounded-full whitespace-nowrap   p-0.5 redBg hover:bg-[#292d77]  rotate-90"></span>
+                        
+                        <button className="px-2 py-1 text-sm border-0 lg:p-3 md:px-5 hover:text-white purpleClr whitespace-nowrap">{Carousals.button2} </button>
                       </div>
                     </div>
                   </div>

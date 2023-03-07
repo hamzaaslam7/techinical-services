@@ -3,13 +3,13 @@ import React from "react";
 export default function GetSolutions() {
   return (
     <>
-      <section className="Latest-Projects lg:py-20 lg:h-[500px] bg-cover md:h-[300px] h-52">
+      <section className="Latest-Projects lg:py-20 py-10 lg:h-[500px] bg-cover md:h-[300px] h-72">
         <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
           <div className="flex flex-col ">
-            <p className="text-center  font-semibold tracking-widest text-[#ffffff] mb-3">
+            <p className="text-center md:text-lg text-sm font-semibold tracking-widest text-[#ffffff] mb-3">
               Dont Know What To Start With?
             </p>
-            <h2 className="flex mx-auto lg:text-6xl lg:max-w-3xl md:text-4xl text-3xl text-center text-[#ffffff]">
+            <h2 className="flex mx-auto lg:text-6xl lg:max-w-3xl md:text-4xl text-[22px] text-center text-[#ffffff]">
               Get A Solutions For All Your Services
             </h2>
           </div>

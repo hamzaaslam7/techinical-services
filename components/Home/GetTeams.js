@@ -27,15 +27,15 @@ export default function GetTeams() {
     },
   ];
   return (
-    <section className="lg:pb-20 py-6 lg:pt-0  ">
+    <section className="py-6 lg:pb-20 lg:pt-0 ">
 
-      <div className="container 2xl:px-20 lg:px-6 px-4 mx-auto">
+      <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
 
-        <div className="grid grayS lg:grid-cols-5  gap-3 md:grid-cols-3 sm:grid-cols-2  grid-cols-1">
+        <div className="grid grid-cols-1 gap-3 grayS lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2">
           {cards.map((cards, key) => {
             return (
               <>
-                <div className="group relative">
+                <div className="relative group">
                   <div className="relative flex flex-col text-center border h-full p-10 border-gray-50 bg-[#dcdcde]  group-hover:bg-[#292d77] justify-center overflow-hidden group w-full">
                     <img
                       src={cards.img}
@@ -47,10 +47,10 @@ export default function GetTeams() {
                       className="lg:w-[70px] hidden group-hover:inline-block mx-auto w-14 lg:h-[70px]"
                       alt="Louvre"
                     />
-                    <h4 className="group-hover:text-white mt-2 lg:text-xl text-lg ">{cards.status}</h4>
+                    <h4 className="mt-2 text-lg group-hover:text-white lg:text-xl ">{cards.status}</h4>
                   </div>
                   <div class="md:w-12 md:h-12 w-[40px] h-[40px] rounded-tl-full absolute right-0 flex items-center justify-center bottom-0 group-hover:bg-[#f98f04] bg-[#292d7751]">
-                    <FontAwesomeIcon icon={faArrowDown} className='w-8 group-hover:text-white purpleClr mt-2 mb-2 -rotate-45' />
+                    <FontAwesomeIcon icon={faArrowDown} className='w-3 mt-3 mb-3 -rotate-45 md:mt-2 md:mb-3 md:w-8 group-hover:text-white purpleClr' />
                   </div>
                 </div>
               </>

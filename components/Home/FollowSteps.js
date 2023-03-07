@@ -28,18 +28,18 @@ export default function FollowSteps() {
     },
   ];
   return (
-    <section className="lg:py-20 md:py-10 py-6 ">
-      <div className="container 2xl:px-20 lg:px-6 px-4 mx-auto">
+    <section className="py-6 lg:py-20 md:py-10 ">
+      <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
         <div className="flex flex-col mb-16 ">
           <p className="text-center text-[#8d9297] mb-3">RECENTLY COMPLETED</p>
-          <h2 className="flex mx-auto lg:text-5xl text-center md:text-4xl text-3xl purpleClr">
+          <h2 className="flex mx-auto text-2xl text-center lg:text-5xl md:text-4xl purpleClr">
 
             Our Latest Projects
           </h2>
           <div className="w-12 pt-4 mx-auto border-b-6 border-[#d8232a]"></div>
           <p className="text-center text-[#8d9297]">We are a team of professional and skilled experts in all domestic spheres.</p>
         </div>
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 2xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 2xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3">
           {cards.map((cards, key) => {
             return (
               <>
