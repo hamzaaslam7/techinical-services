@@ -80,17 +80,17 @@ export default function Slider2() {
                 />
 
             <div className="container px-6 mx-auto lg:px-20 md:px-10 ">
-            <div className="absolute top-0 items-center hidden grid-cols-2 text-start carousel-caption md:block gird">
+            <div className="absolute top-0 flex items-center justify-center hidden grid-cols-2 text-start carousel-caption md:block gird">
                   <div className="flex flex-col items-start justify-center h-full gap-5 my-4">
                     <div className="">
                       <button className="p-3 px-5 mb-2 text-white redBg">
                         NO:1 Technical Company{" "}
                       </button>
                       <div className="flex flex-col gap-1 mb-2 font-bold text-black uppercase">
-                        <h5 className="text-3xl  2xl:text-8xl lg:text-7xl md:text-4xl">
+                        <h5 className="text-3xl 2xl:text-8xl lg:text-7xl md:text-4xl">
                           {Carousals.heading}
                         </h5>
-                        <h5 className="text-3xl  2xl:text-8xl lg:text-7xl md:text-4xl">
+                        <h5 className="text-3xl 2xl:text-8xl lg:text-7xl md:text-4xl">
                         
                           {Carousals.subHeading}{" "}
                         </h5>

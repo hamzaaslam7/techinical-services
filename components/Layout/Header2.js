@@ -26,8 +26,10 @@ export default function Header2() {
     <>
       <header>
 
-        <nav className={`flex flex-wrap items-center justify-between w-full py-4 md:py-0  px-4 text-lg bg-white fixed z-10 lg:h-[80px] h-[65px] ${scroll ? "bg-[#FFFFFF] shadow-lg lg:text-black" : " bg-white "} `} >
-          <div>
+        <nav className={` text-lg bg-white fixed w-full z-10  lg:py-3 py-2 ${scroll ? "bg-[#FFFFFF] shadow-lg lg:text-black" : " bg-white "} `} >
+        <div className='container w-full px-6 mx-auto lg:px-20 '>
+        <div className='flex flex-wrap items-center justify-between w-full px-4 py-4 md:py-0'>
+           <div>
             <Link
               className="lg:w-[200px] w-full lg:h-[80px] md:h-12 flex items-center h-12"
               href="/"
@@ -59,8 +61,8 @@ export default function Header2() {
             </svg>
           </button>
           <div className={` flex lg:items-center lg:w-auto bg-[#292D77] lg:bg-transparent fixed top-0 right-0 bottom-0 lg:relative xl:w-auto z-50  ${isMenuOpen ? 'w-[50%]' : ' lg:inline-block md:hidden hidden'}`} style={{ transition: "all .3s ease-in-out" }}>
-            <ul className="pt-4 lg:text-black text-white navbar-nav-div relative md:pt-0">
-              <li className="flex justify-end w-full px-3 pt-3 pb-3 text-right lg:pt-0 lg:pb-0 ">
+            <ul className="relative pt-4 text-white lg:text-black navbar-nav-div md:pt-0">
+              <li className="flex justify-end w-full pt-3 pb-3 text-right lg:pt-0 lg:pb-0 ">
                 <button className="lg:hidden
                    border-0
                    py-2  px-2.5
@@ -76,7 +78,7 @@ export default function Header2() {
                 </button>
               </li>
               <li>
-                <Link className="md:p-4 py-2 block whitespace-nowrap " href="/">
+                <Link className="block py-2 md:p-4 whitespace-nowrap " href="/">
                   <div className={`w-full text-center  cursor-pointer text-[16px]   hover:yellow  ${router.asPath === "/" && "redClr "} `} onClick={toggleMenu}>
                     Home
                   </div>
@@ -84,7 +86,7 @@ export default function Header2() {
                 </Link>
               </li>
               <li>
-                <Link className="md:p-4 py-2 block whitespace-nowrap " href="/About">
+                <Link className="block py-2 md:p-4 whitespace-nowrap " href="/About">
                   <div className={`w-full text-center  cursor-pointer text-[16px]   hover:yellow  ${router.asPath === "/About" && "redClr "} `} onClick={toggleMenu}>
                     AboutUs
                   </div>
@@ -92,7 +94,7 @@ export default function Header2() {
                 </Link>
               </li>
               <li>
-                <Link className="md:p-4 py-2 block whitespace-nowrap " href="/Services">
+                <Link className="block py-2 md:p-4 whitespace-nowrap " href="/Services">
                   <div className={`w-full text-center  cursor-pointer text-[16px]   hover:yellow  ${router.asPath === "/Services" && "redClr "} `} onClick={toggleMenu}>
                     Services
                   </div>
@@ -100,14 +102,14 @@ export default function Header2() {
                 </Link>
               </li>
               <li>
-                <Link className="md:p-4 py-2 block whitespace-nowrap " href="/Gallery">
+                <Link className="block py-2 md:p-4 whitespace-nowrap " href="/Gallery">
                   <div className={`w-full text-center  cursor-pointer text-[16px]   hover:yellow  ${router.asPath === "/Gallery" && "redClr "} `} onClick={toggleMenu}>
                     Gallery
                   </div>
                 </Link>
               </li>
               <li>
-                <Link className="md:p-4 py-2 block whitespace-nowrap " href="/Contact">
+                <Link className="block py-2 md:p-4 whitespace-nowrap " href="/Contact">
                   <div className={`w-full text-center  cursor-pointer text-[16px]   hover:yellow  ${router.asPath === "/Contact" && "redClr "} `} onClick={toggleMenu}>
                     Contect Us
                   </div>
@@ -122,6 +124,9 @@ export default function Header2() {
               </li>
             </ul>
           </div>
+          </div>
+        </div>
+         
         </nav>
       </header>
     </>

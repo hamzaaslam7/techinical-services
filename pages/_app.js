@@ -9,6 +9,7 @@ import ScrollToTop from "react-scroll-up";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import Header3 from "@/components/Layout/header3";
+import Header2 from "@/components/Layout/Header2";
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -20,7 +21,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <Script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></Script>
       {/* <Navbar /> */}
-      <Header3 />
+      <Header2 />
       <div className="lg:pt-20 md:pt-14 pt-[4rem]">
         <Component {...pageProps} />
       </div>
