@@ -15,17 +15,17 @@ export default function GetSolutions() {
           </div>
         </div>
       </section>
-      <section className="relative lg:mb-20 lg:h-[500px]  2xl:-mt-20 lg:-mt-16 mt-8 overflow-hidden">
+      <section className="relative mt-8 overflow-hidden lg:mb-20 2xl:-mt-20 lg:-mt-16">
         <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
-          <div className="relative flex flex-wrap w-full p-0 bg-white shadow-lg ">
-            <div className="relative flex flex-col w-full p-3 md:p-8 lg:w-2/3">
+          <div className="relative flex flex-wrap w-full p-0 bg-white ">
+            <div className="relative flex flex-col w-full p-3 grayS-shadow md:p-8 lg:w-2/3">
               <div className="flex items-center">
                 <div className="pl-5 border-l-[6px] border-[#f98f04]">
                   <p className="text-xl">FREE CONSULTATION</p>
                   <h5 className="text-3xl ">Get a Free Quote</h5>
                 </div>
               </div>
-              <div className="grid mt-2 mb-4 gap-x-5 gap-y-4 md:grid-cols-2">
+              <div className="grid gap-2 mt-2 mb-4 gridcol-1">
                 <input
                   type="text"
                   placeholder="Full Name"

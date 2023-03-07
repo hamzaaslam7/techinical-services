@@ -43,11 +43,14 @@ export default function FollowSteps() {
           {cards.map((cards, key) => {
             return (
               <>
-                <div className="relative overflow-hidden text-center group">
-                  <div className="relative h-[210px] w-[210px] rounded-full mx-auto">
-                    <span className="inline-block w-12 absolute right-3 top-3 flex items-center justify-center h-12 group-hover:bg-[#f98f04] text-white rounded-full text-xl bg-[#292d77]">
+                <div className="relative py-6 overflow-hidden relative text-center bg-[#0000002b] rounded group">
+                <span className="inline-block w-12 absolute left-0 top-0 flex items-center justify-center h-12 group-hover:bg-[#f98f04] text-white rounded-br-full text-xl bg-[#292d77]">
                       {cards.number}
                     </span>
+                  <div className="relative h-[210px] w-[210px] rounded-full mx-auto">
+                    {/* <span className="inline-block w-12 absolute right-3 top-3 flex items-center justify-center h-12 group-hover:bg-[#f98f04] text-white rounded-full text-xl bg-[#292d77]">
+                      {cards.number}
+                    </span> */}
                     <img
                       src={cards.img}
                       className="h-[210px] w-[210px] grayS rounded-full mx-auto p-3 bg-white"

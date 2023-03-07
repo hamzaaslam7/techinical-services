@@ -159,6 +159,9 @@ body {
 .grayS {
   box-shadow: 0 0 25px 0 rgba(41, 61, 88, 0.118);
 }
+.grayS-shadow {
+  box-shadow: 0 0 25px 0 rgba(41, 61, 88, 0.249);
+}
 
 .ScrollToTop {
   background-color: #f98f04e2 !important;

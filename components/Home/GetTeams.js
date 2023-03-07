@@ -50,7 +50,7 @@ export default function GetTeams() {
                     <h4 className="mt-2 text-lg group-hover:text-white lg:text-xl ">{cards.status}</h4>
                   </div>
                   <div class="md:w-12 md:h-12 w-[40px] h-[40px] rounded-tl-full absolute right-0 flex items-center justify-center bottom-0 group-hover:bg-[#f98f04] bg-[#292d7751]">
-                    <FontAwesomeIcon icon={faArrowDown} className='w-3 mt-3 mb-3 -rotate-45 md:mt-2 md:mb-3 md:w-8 group-hover:text-white purpleClr' />
+                    <FontAwesomeIcon icon={faArrowDown} className='w-3 mt-3 mb-3 -rotate-45 md:mt-2 md:mb-2 md:w-4 group-hover:text-white purpleClr' />
                   </div>
                 </div>
               </>

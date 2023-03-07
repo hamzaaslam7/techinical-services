@@ -46,7 +46,7 @@ export default function LatestProject() {
           {cards.map((cards, key) => {
             return (
               <>
-                <div className="relative w-full overflow-hidden lg:h-[280px] bg-no-repeat bg-cover group">
+                <div className="relative w-full overflow-hidden lg:h-[280px]  bg-no-repeat bg-cover group">
                   <img
                     src={cards.img}
                     className="w-full 2xl:h-[430px] md:h-[280px] h-[220px]"
