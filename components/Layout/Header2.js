@@ -96,9 +96,8 @@ export default function Header2() {
               <li>
                 <Link className="block py-2 md:p-4 whitespace-nowrap " href="/Services">
                   <div className={`w-full text-center  cursor-pointer text-[16px]   hover:yellow  ${router.asPath === "/Services" && "redClr "} `} onClick={toggleMenu}>
-                    Services
+                  Services
                   </div>
-
                 </Link>
               </li>
               <li>
