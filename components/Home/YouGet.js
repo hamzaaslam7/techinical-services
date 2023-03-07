@@ -81,23 +81,21 @@ export default class AutoPlayMethods extends Component {
         text: "We specialize in the Installation and Maintenance of AC(Air Conditioning) Ventilation and Air Filtration Systems.",
       },
       {
-        Image:
-          "/images/08.jpg",
+        Image: "/images/08.jpg",
         heading: "Home Maintainance",
         text: "We provide Contracting Services for Interior and Exterior Painting as well as Repainting for Apartments, villas and offices.",
       },
-  
     ];
     return (
       <div className=" bg-[url('/images/bgImage.jpg')] bg-no-repeat bg-cover py-5">
         <div className="flex flex-col gap-6 mb-3 lg:mb-7 md:mb6">
           <p className="text-center grayClr">OUR SERVICES</p>
           <h2 className="text-center lg:text-5xl md:text-3xl text-[22px] md:w-[50%] flex mx-auto purpleClr">
-            What You Will Get Form Us Check It
+            What Will You Get From Us Check Here
           </h2>
           <p className="font-thin text-center grayClr">
-            We are a team of professional and skilled experts in all domestic
-            spheres.
+            We are a team of professional and skilled Engineers in all domestic
+            Areas.
           </p>
         </div>
         <link
@@ -128,7 +126,9 @@ export default class AutoPlayMethods extends Component {
                         </div>
 
                         <div className="flex flex-col gap-3 p-3 mb-4 text-center 2xl:p-7 lg:p-5">
-                          <h2 className="text-xl md:text-2xl purpleClr">{val.heading}</h2>
+                          <h2 className="text-xl md:text-2xl purpleClr">
+                            {val.heading}
+                          </h2>
                           <p className="text-sm leading-6 grayClr">
                             {val.text}
                           </p>
