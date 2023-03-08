@@ -39,14 +39,27 @@ export default function Header2() {
                 >
                   <div className="flex items-center">
                     <img
-                      src="/images/header-logo.jpeg"
+                      src="/images/header-logo2.png"
                       alt="logo"
                       className="lg:w-[60px]  lg:h-[60px] md:h-14 w-12 md:w-14 flex items-center h-12"
                     />
                   </div>
                 </Link>
               </div>
-
+              {/* <div>
+                <Link
+                  className="lg:w-[200px]  lg:h-[60px] md:h-14  flex items-center h-12"
+                  href="/"
+                >
+                  <div className="flex items-center">
+                    <img
+                      src="/images/logo-y-b.png"
+                      alt="logo"
+                      className="  lg:h-[60px] md:h-14  flex items-center "
+                    />
+                  </div>
+                </Link>
+              </div> */}
               <button
                 className="lg:hidden  md:inline-block inline-block border-0 py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline "
                 type="button"

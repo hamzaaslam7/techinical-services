@@ -4,9 +4,16 @@ import "slick-carousel/slick/slick-theme.css";
 import "@/styles/globals.css";
 import Head from "next/head";
 import Script from "next/script";
+import { useState } from "react";
 import ScrollToTop from "react-scroll-up";
 import Header2 from "@/components/Layout/Header2";
+import CustomModal from "@/components/customModal";
 export default function App({ Component, pageProps }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
   return (
     <>
       <Head>
@@ -22,7 +29,13 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </div>
       <Footer />
-
+      <button
+        onClick={openModal}
+        className="fixed w-16 h-10 text-sm bg-white border rounded cursor-pointer right-5 bottom-2"
+      >
+        Modal
+      </button>
+      <CustomModal isOpen={isOpen} setIsOpen={setIsOpen} />
       <ScrollToTop className="bg-black" showUnder={160}>
         <span className="w-10 h-10 bg-black ScrollToTop">
           <img src="/images/arrow-down.svg" className="w-5 md:w-10" />{" "}

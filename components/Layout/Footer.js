@@ -40,13 +40,13 @@ function Footer() {
                     <a href="about-us">About Us</a>
                   </li>
                   <li>
-                    <a href="our-services">Our Services </a>
+                    <a href="our-services">Services </a>
                   </li>
                   <li>
-                    <a href="our-portfolio">Our Portfolio</a>
+                    <a href="our-portfolio">Gallery</a>
                   </li>
                   <li>
-                    <a href="client-testimonials">Client Testimonial</a>
+                    <a href="client-testimonials">Contact Us</a>
                   </li>
                   <li>
                     <a href="contact-us">Contact Us</a>
