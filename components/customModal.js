@@ -48,7 +48,7 @@ function CustomModal({ isOpen, setIsOpen }) {
                       <img
                         className="w-4 h-8 md:w-10"
                         layout="fill"
-                        src="/images/whatsapp-svgrepo-com.svg"
+                        src="/images/whatsapp.svg"
                       />
                     </div>
                   </Link>
