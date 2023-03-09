@@ -13,34 +13,21 @@ import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 function Footer() {
   return (
     <>
-      <section className="mt-[80px] "></section>{" "}
-      <div className="text-white bg-[#120A03] px-[80px]">
-        <div className="container items-center justify-between pt-10 mx-auto md:flex">
-          <div className="flex flex-col">
-            <h2 className="text-[24px] leading-none md:text-[48px]">
-              Interested in Collaboration?
-            </h2>
-            <p className="mt-2 mb-2 md:mt-0 md:mb-0">
-              Challenge us.We want to work with you to create the really cool
-              stuff.
-            </p>
-          </div>
-          <button className="bg-[#F5931E] rounded-full  text-white hover:text-black h-[57px] w-[179px] ">
-            Contact Us{" "}
-          </button>
-        </div>
-        <div className="container mx-auto mt-28 md:mt-0 xl:pt-20">
-          <div className="md:grid md:grid-cols-2 xl:grid-cols-4 gap-4">
+      {" "}
+      <section className=""></section>{" "}
+      <div className="text-white lg:pt-20 md:pt-10 pt-6 bg-[#292d77]">
+        <div className="container px-4 mx-auto md:mt-0 2xl:px-20 lg:px-6">
+          <div className="gap-4 md:grid md:grid-cols-2 xl:grid-cols-4">
             <div className="">
               <div className="">
                 <Link href="/">
-                  {/* <img
-                    className="h-8 md:h-12"
-                    src="./images/Amazon Publications Logo-02.svg"
+                  <img
+                    className="h-10 md:h-20"
+                    src="./images/header-logo.jpeg"
                     alt="AmazonPublishigPros"
                   /> */}
                 </Link>
-                <p className="pt-4 font-thin text-justify">
+                <p className="pt-4 lg:text-[16px] md:text-sm font-thin text-xs ">
                   Got a book inside you but not sure how to make it happen?
                   We’re here to help. Amazon Publishing Pros is one of the most
                   successful platforms for self-publishing authors. From
@@ -52,9 +39,9 @@ function Footer() {
             </div>
             <div className="justify-center md:flex">
               {" "}
-              <div className="">
-                <h3 className="text-[28px]">About Us</h3>
-                <ul className="pt-2 font-thin">
+              <div className="mt-2 md:mt-0">
+                <h3 className="md:text-[28px] text-xl">About Us</h3>
+                <ul className="pt-2 flex flex-col gap-2 lg:text-[16px] md:text-sm font-thin text-xs">
                   <li>
                     <Link href="/">Home</Link>
                   </li>
@@ -62,13 +49,13 @@ function Footer() {
                     <a href="about-us">About Us</a>
                   </li>
                   <li>
-                    <a href="our-services">Our Services </a>
+                    <a href="our-services">Services </a>
                   </li>
                   <li>
-                    <a href="our-portfolio">Our Portfolio</a>
+                    <a href="our-portfolio">Gallery</a>
                   </li>
                   <li>
-                    <a href="client-testimonials">Client Testimonial</a>
+                    <a href="client-testimonials">Contact Us</a>
                   </li>
                   <li>
                     <a href="contact-us">Contact Us</a>
@@ -79,10 +66,10 @@ function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="xl:justify-center md:flex">
-              <div className="">
-                <h3 className="text-[28px]">Services</h3>
-                <ul className="pt-2 font-thin">
+            <div className="xl:justify-center md:flex ">
+            <div className="mt-2 md:mt-0">
+                <h3 className="md:text-[28px] text-xl">Services</h3>
+                <ul className="pt-2 font-thin lg:text-[16px]  md:text-sm text-xs">
                   <li>
                     <a href="book-writing-service">Book Writing Services</a>
                   </li>
@@ -113,14 +100,19 @@ function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex lg:justify-center">
               {" "}
-              <div className="">
-                <h3 className="text-[28px]">Contact Us</h3>
-                <ul className="flex flex-col gap-3 pt-2 font-thin">
-                  <li className="flex items-start gap-1 ">
-                    <FontAwesomeIcon className="mt-1" icon={faLocationDot} />
-                    <Link className="flex mt-0 " href="/">
+              <div className="mt-2 md:mt-0">
+                <h3 className="md:text-[28px] text-xl">Contact Us</h3>
+                <ul className="flex flex-col gap-3 pt-2 lg:text-[16px] md:text-sm font-thin text-xs">
+                  <li className="flex items-start gap-1">
+                    <img
+                      className="h-4 w-6 mt-1.5"
+                      src="/images/mapIcon.png"
+                      alt="image"
+                    />
+                    <Link className="flex" href="/">
+                      {" "}
                       999 Riverview Drive - Suite 201, Totowa, NJ 07512
                     </Link>
                   </li>
@@ -150,20 +142,65 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="container justify-between py-8 mx-auto md:py-16 md:flex ">
-          <div className="flex flex-row justify-between items-center w-28">
-            <a>
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a>
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            <a>
-              <FontAwesomeIcon icon={faDiscord} />
-            </a>
-            <a>
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
+        <div className="container justify-between px-4 pt-8 mx-auto 2xl:px-20 lg:px-6 md:flex ">
+          <div className="flex flex-row justify-between">
+            <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
+              <Link href="" className="">
+                <svg
+                  fill="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </Link>
+              <Link href="" className="ml-3 ">
+                <svg
+                  fill="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </Link>
+              <Link href="" className="ml-3 ">
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </Link>
+              <Link href="" className="ml-3 ">
+                <svg
+                  fill="currentColor"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="0"
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="none"
+                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                  ></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </Link>
+            </span>
           </div>
           <div>
             <p className=" mt-4 md:mt-0  text-[13px]">

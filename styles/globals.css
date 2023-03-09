@@ -2,106 +2,194 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  /* html {
-    @apply bg-slate-500
-  } */
-  /* h1 {
-    @apply text-3xl font-bold mb-2;
-  } */
-  /* a {
-    @apply underline
-  } */
-
- 
- input[type="text"]{
-    @apply text-slate-500 disabled:bg-slate-100 placeholder:italic p-1  mb-2 border rounded-sm border-slate-300  outline-none;
- }
-
- input[type="date"]{
-  @apply p-1  mb-2 border rounded-sm border-slate-300  outline-none;
- }
-
- input[type="checkbox"]{
-  @apply p-1  mb-2 border rounded-sm border-slate-300  outline-none accent-200;
- }
- 
- select{
-  @apply  p-1  mb-2 border rounded-sm border-slate-300  outline-none ;
- }
- .Select{
-  @apply  w-32  mb-2 border rounded border-slate-300  outline-none inline-block cursor-pointer transition   ;
- }
-.Select .child{
-@apply px-2 py-1 text-slate-500 
- }
- .Select  ul li {
-
-  @apply hover:bg-slate-100
- }
-
-
- /* label {
-    @apply text.sm text-slate-500 mr-1 font-medium;
-  } */
-
-  .btn{
-    @apply  px-4 py-2 rounded-lg disabled:bg-slate-400/30 ;
-  }
-
-  .btn:hover{
-    @apply transition duration-300 opacity-80 disabled:opacity-100 disabled:cursor-not-allowed;
-  }
-
-  .btn-primary{
-    @apply bg-blue-600 text-white  ;
-  }
-
-  .btn-secondary{
-    @apply bg-slate-800 text-white ;
-  }
-
- 
-
-}
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 @font-face {
-    font-family:Helvetica ;
-    src: url("../public/font/Helvetica.woff");
-    src:url("../public/font/Poppins-Medium.woff")
-  }
-  h1,h2{
-    font-family: 'Helvetica' ,'Poppins', sans-serif;
-    font-weight: bold;
-  }
-  h3,h4,h5,h6,ul,li{
-    font-family:'Helvetica','Poppins', sans-serif;
-    font-weight: 600px;
-  }
+  font-family: Helvetica;
+  src: url("../public/font/Helvetica.woff");
+  src: url("../public/font/Poppins-Medium.woff");
+}
+h1,
+h2 {
+  font-family: "Helvetica", "Poppins", sans-serif;
+  font-weight: bold !important;
+}
+h3,
+h4,
+h5,
+h6,
+ul
+{
+  font-family: "Helvetica", "Poppins", sans-serif;
+  font-weight: 600px;
+}
+li {
+  font-family: "Helvetica", "Poppins", sans-serif;
+  font-weight: 400px;
+}
+body {
+  font-family: "Helvetica", "Poppins", sans-serif;
+  font-weight: 400;
+}
+.yellow,
+.redClr {
+  color: #f98f04;
+}
 
-  body{
-    font-family: 'Helvetica' ,'Poppins', sans-serif;
-    font-weight: 400;
-  }
-.redClr{
-  color: #dc3545;
+.purpleClr {
+  color: #292d77;
 }
-.purpleClr{
-  color: #292D77;
-}
-.redBg{
+/* .redBg{
   background:#dc3545;;
+} */
+.redBg {
+  background: #f98f04;
 }
-.grayClr{
+.grayClr {
   color: #8d9297;
 }
-.text-High{
+.text-High {
   background: url(/images/textBg.jpg) no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-position: center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center center;
 }
-.slick-next{
-  display: none ! important;
+.slick-next {
+  display: none !important;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px !important;
+  display: flex !important;
+  display: block;
+  width: 100%;
+  justify-content: center;
+  margin: 0 !important;
+  list-style: none;
+}
+.slick-dots li {
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 2px !important;
+}
+
+.slick-dots li button:before {
+  font-family: "slick";
+  border-radius: 50% !important;
+  font-size: 13px !important;
+  line-height: 0px !important;
+  position: absolute;
+  top: 0px !important;
+  left: 0;
+  width: 10px !important;
+  height: 10px !important;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: #f98f04 !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 10px !important;
+  height: 10px !important;
+  cursor: pointer;
+  color: transparent;
+  background: transparent;
+}
+
+.slick-slider.Carousal1 .slick-prev {
+  left: 4% !important;
+}
+.slick-slider.Carousal1 .slick-next {
+  right: 4% !important;
+}
+.slick-slider.Carousal1 .slick-prev,
+.slick-slider.Carousal1 .slick-next {
+  font-size: 20px !important;
+  line-height: 0;
+  color: #000 !important;
+  position: absolute;
+  z-index: 999 !important;
+  width: 40px !important;
+  height: 20px;
+}
+.slick-prev:before {
+  content: "←";
+  font-size: 20px;
+  width: 20px;
+  color: #dfff !;
+}
+
+.slick-next:before {
+  content: "→";
+}
+
+.Latest-Projects {
+  background-image: url(/images/row-bgimage-10.jpg);
+  height: 100%;
+  background-position: calc();
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+  background-color: #292d77;
+  background-blend-mode: multiply;
+}
+.countsup {
+  background-image: url(../public/images/countup-bg.jpg);
+  height: 100%;
+  background-position: calc();
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+  background-color: #f98f04;
+  background-blend-mode: multiply;
+}
+.grayS {
+  box-shadow: 0 0 25px 0 rgba(41, 61, 88, 0.118);
+}
+.grayS-shadow {
+  box-shadow: 0 0 25px 0 rgba(41, 61, 88, 0.249);
+}
+
+.ScrollToTop {
+  background-color: #f98f04e2 !important;
+  border-radius: 5px;
+  padding: 10px 0 !important;
+}
+.navbar-nav-div{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+
+#menu-toggle:checked + #menu {
+  display: block;
+}
+@media(max-width:991px) {
+  .ScrollToTop {
+    background-color: #f98f04e2 !important;
+    border-radius: 5px;
+    padding: 10px 0 !important;
+  }
+  .navbar-nav-div{
+    flex-direction: column;
+    align-items: center;
+justify-content: start;
+width: 100%;
+  }
+  
 }
