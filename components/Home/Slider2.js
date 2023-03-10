@@ -10,7 +10,7 @@ export default function Slider2() {
     {
       Image: "https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp",
       heading: "rELIABLE",
-      subHeading: "professionalsss in UAE",
+      subHeading: "professional in UAE",
       text: " Some representative placeholder content for the first slide. Some representative placeholder content for the first slide.",
       button: "REQUEST A QUOTE",
       button2: "How We Work",
@@ -79,38 +79,37 @@ export default function Slider2() {
                   alt="Motorbike Smoke"
                 />
 
-                <div className="container px-6 mx-auto lg:px-20 md:px-10 ">
-                  <div className="absolute top-0 bottom-0 flex items-center justify-center grid-cols-1 text-start carousel-caption md:block gird">
-                    <div className="flex flex-col items-start justify-center h-full my-4">
-                      <div className="">
-                        <button className="px-2 py-1 mb-1 text-white md:mb-2 md:p-3 md:px-5 redBg">
-                          NO:1 Technical Company{" "}
+            <div className="container px-6 mx-auto lg:px-20 md:px-10 ">
+            <div className="absolute top-0 bottom-0 flex items-center justify-center grid-cols-1 text-start carousel-caption md:block gird">
+                  <div className="flex flex-col items-start justify-center h-full my-4">
+                    <div className="">
+                      <button className="px-2 py-1 mb-1 text-white md:mb-2 md:p-3 md:px-5 redBg">
+                        NO:1 Technical Company{" "}
+                      </button>
+                      <div className="flex flex-col gap-1 font-bold text-black uppercase md:mb-2">
+                        <h5 className="text-[22px] 2xl:text-8xl lg:text-7xl md:text-3xl">
+                          {Carousals.heading}
+                        </h5>
+                        <h5 className="text-[22px] 2xl:text-8xl lg:text-7xl md:text-3xl">
+                        
+                          {Carousals.subHeading}{" "}
+                        </h5>
+                      </div>
+                      <p className="mb-2 text-xs text-black pr-7 md:mb-5 lg:text-lg md:text-sm lg:pr-80 md:pr-30">
+                        {Carousals.text}
+                      </p>
+                      <div className="flex gap-3 text-black">
+                        <button className="border lg:p-3 md:px-5 py-1 px-2 border-[#292d77] hover:bg-[#292d77] hover:text-white purpleClr whitespace-nowrap text-sm">
+                          {Carousals.button}
                         </button>
-                        <div className="flex flex-col gap-1 font-bold text-black uppercase md:mb-2">
-                          <h5 className="text-[22px] 2xl:text-8xl lg:text-7xl md:text-3xl">
-                            {Carousals.heading}
-                          </h5>
-                          <h5 className="text-[22px] 2xl:text-8xl lg:text-7xl md:text-3xl">
-                            {Carousals.subHeading}{" "}
-                          </h5>
-                        </div>
-                        <p className="mb-2 text-xs text-black pr-7 md:mb-5 lg:text-lg md:text-sm lg:pr-80 md:pr-30">
-                          {Carousals.text}
-                        </p>
-                        <div className="flex gap-3 text-black">
-                          <button className="border lg:p-3 md:px-5 py-1 px-2 border-[#292d77] hover:bg-[#292d77] hover:text-white purpleClr whitespace-nowrap text-sm">
-                            {Carousals.button}
-                          </button>
-                          <span class="md:w-14 md:h-14 w-6 h-6 rounded-full whitespace-nowrap   p-0.5 redBg hover:bg-[#292d77]  rotate-90"></span>
-
-                          <button className="px-2 py-1 text-sm border-0 lg:p-3 md:px-5 hover:text-white purpleClr whitespace-nowrap">
-                            {Carousals.button2}{" "}
-                          </button>
-                        </div>
+                        <span class="md:w-14 md:h-14 w-6 h-6 rounded-full whitespace-nowrap   p-0.5 redBg hover:bg-[#292d77]  rotate-90"></span>
+                        
+                        <button className="px-2 py-1 text-sm border-0 lg:p-3 md:px-5 hover:text-white purpleClr whitespace-nowrap">{Carousals.button2} </button>
                       </div>
                     </div>
                   </div>
                 </div>
+            </div>
               </div>
             </>
           );

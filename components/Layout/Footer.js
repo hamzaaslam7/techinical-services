@@ -1,15 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faDiscord,
-  faFacebook,
-  faLinkedin,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
-
 function Footer() {
   return (
     <>
@@ -25,17 +16,15 @@ function Footer() {
                     className="h-10 md:h-20"
                     src="./images/header-logo.jpeg"
                     alt="AmazonPublishigPros"
-                  /> */}
+                  />
                 </Link>
                 <p className="pt-4 lg:text-[16px] md:text-sm font-thin text-xs ">
-                  Basat Anwer Technical Services LLC is a top and
-                  forward-thinking maintenance service provider in the Emirate
-                  of Dubai. Our team comprises professional Engineers and
-                  Skilled individuals who prioritize Customer’s comfort, Safety
-                  and Productivity, while also reducing expenses and ensuring
-                  regulatory compliance. We continually strive to enhance
-                  delivery performance and customer satisfaction because we
-                  value our clients!
+                  Got a book inside you but not sure how to make it happen?
+                  We’re here to help. Amazon Publishing Pros is one of the most
+                  successful platforms for self-publishing authors. From
+                  writing, designing, publishing to distribution – we take care
+                  of everything. Becoming an accomplished author has never been
+                  easier!
                 </p>
               </div>
             </div>
@@ -69,33 +58,35 @@ function Footer() {
               </div>
             </div>
             <div className="xl:justify-center md:flex ">
-              <div className="mt-2 md:mt-0">
+            <div className="mt-2 md:mt-0">
                 <h3 className="md:text-[28px] text-xl">Services</h3>
                 <ul className="pt-2 font-thin lg:text-[16px]  md:text-sm text-xs">
                   <li>
-                    <a href="book-writing-service">
-                      AC(Air Conditionier) Maintenance
-                    </a>
+                    <a href="book-writing-service">Book Writing Services</a>
                   </li>
                   <li>
-                    <a href="audio-book-service">Painting Services</a>
+                    <a href="audio-book-service">Audio Book Service</a>
                   </li>
                   <li>
                     <a href="book-editing-proofreading-service">
-                      Carpentry Work
+                      Book Proofreading &amp; Editing
                     </a>
                   </li>
                   <li>
-                    <a href="book-cover-designing">Electrician Services</a>
+                    <a href="book-cover-designing">Book Cover Design</a>
                   </li>
                   <li>
-                    <a href="book-illustrations-designing">Plumbing Services</a>
+                    <a href="book-illustrations-designing">
+                      Book Illustrations
+                    </a>
                   </li>
                   <li>
-                    <a href="book-publishing-service">Painting Services</a>
+                    <a href="book-publishing-service">
+                      Book Publishing Services
+                    </a>
                   </li>
                   <li>
-                    <a>False Ceiling Service</a>
+                    <a href="book-printing-service">Book Marketing Service</a>
                   </li>
                 </ul>
               </div>
@@ -113,8 +104,7 @@ function Footer() {
                     />
                     <Link className="flex" href="/">
                       {" "}
-                      Office No G/010 Al Fahad Building Hor Al Anz Diera, Dubai,
-                      United Arab Emirates, Dubai, United Arab Emirates.
+                      999 Riverview Drive - Suite 201, Totowa, NJ 07512
                     </Link>
                   </li>
                   <li className="flex gap-2 mx-1">
@@ -128,31 +118,18 @@ function Footer() {
                     >
                       <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
                     </svg>
-                    <a href="mailto:  basatanwertech@gmail.com">
+                    <a href="mailto:  info@amazaon-publications.com">
                       {" "}
-                      basatanwertech@gmail.com
+                      info@amazaon-publications.com
                     </a>
                   </li>
-                  <li className="flex gap-2 mx-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      className="bi mt-1.5 bi-envelope"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                    </svg>
-                    <a href="mailto:  info@basatanwertech.com">
-                      {" "}
-                      info@basatanwertech.com
-                    </a>
-                  </li>
-                  <li className="flex gap-1 ">
-                    <FontAwesomeIcon icon={faPhone} />
-
-                    <a href="tel:+1 (646) 458-4222"> +971524052485</a>
+                  <li className="flex ">
+                    <img
+                      className="h-4 w-6 mt-1.5"
+                      src="/images/mobiel.svg"
+                      alt="image"
+                    />
+                    <a href="tel:+1 (646) 458-4222"> +1 (646) 458-4222</a>
                   </li>
                 </ul>
               </div>

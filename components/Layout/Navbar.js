@@ -22,7 +22,6 @@ const Navbar = () => {
       }
     });
   });
-
   return (
     <div className="">
       <section>
@@ -40,7 +39,6 @@ const Navbar = () => {
                 <img src="/images/logo.png" alt="logo" className="lg:w-[200px] w-full lg:h-[80px] md:h-14 flex items-center h-12" />
               </div>
             </Link>
-
             <button
               className="lg:hidden custom-navbar-toggler  md:inline-block inline-block border-0 py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline "
               type="button"
@@ -61,7 +59,6 @@ const Navbar = () => {
                 />
               </svg>
             </button>
-
             <div
               className={`${menu == true
                   ? "md:w-[60%] w-[72%] lg:w-full ease-in-out duration-300"
@@ -97,7 +94,7 @@ const Navbar = () => {
                         }`}
                       onClick={() => setMenu(false)}
                     >
-                      SERVICES
+                      Home
                     </div>
                   </Link>
                 </li>

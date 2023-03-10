@@ -36,7 +36,7 @@ export default function ProfessionalTeams() {
           slidesToScroll: 1,
         },
       },
-
+  
       {
         breakpoint: 600,
         settings: {
@@ -48,14 +48,14 @@ export default function ProfessionalTeams() {
   };
   const cards = [
     {
-      img: "/images/basat.jpg",
-      name: "Muhammad Basat",
+      img: "/images/team-img01.jpg",
+      name: "Shoaib Akmal",
       status: "Co-founder & CEO",
     },
     {
-      img: "/images/Siam_pic.jpg",
-      name: "Siam Hassan",
-      status: "Software Engineer, Marketing Manager",
+      img: "/images/team-img02.jpg",
+      name: "Shoaib Akmal",
+      status: "Co-founder & CEO",
     },
     {
       img: "/images/team-img03.jpg",
@@ -67,8 +67,10 @@ export default function ProfessionalTeams() {
       name: "Shoaib Akmal",
       status: "Co-founder & CEO",
     },
+
   ];
   return (
+    
     <section className="lg:pb-32 py-6 lg:-mt-20 ">
       <div className="container mx-auto 2xl:px-20 lg:px-6 px-4">
         <div className="grid grid-cols-1 gap-4">
@@ -84,12 +86,11 @@ export default function ProfessionalTeams() {
                     <div className="flex flex-col mx-4 bg-white shadow-xl">
                       <div className="relative w-full bg-no-repeat bg-cover group">
                         <div className="2xl:h-[500px] md:h-[360px] h-[220px]">
-                          <img
-                            src={cards.img}
-                            className="w-full h-full"
-                            alt="Louvre"
-                          />
-                        </div>
+                        <img
+                          src={cards.img}
+                          className="w-full h-full"
+                          alt="Louvre"
+                        /></div>
                         <div
                           className="absolute bottom-0 left-0 right-0 flex items-center justify-center w-full h-24 overflow-hidden text-center transition duration-300 ease-in-out bg-white group-hover:h-32"
                           style={{ transition: "all .3s ease-in-out" }}
