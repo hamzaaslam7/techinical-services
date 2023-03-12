@@ -50,13 +50,14 @@ export default function LatestGallery() {
   ];
   return (
     <section className="py-6 lg:py-20 md:py-10 ">
+  
       <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
         <div className="grid grid-cols-1 gap-8 bg-white lg:grid-cols-3 sm:grid-cols-2">
           {cards.map((cards, key) => {
             return (
               <>
                 <div className="relative w-full overflow-hidden lg:h-[280px] bg-no-repeat bg-cover group">
-                  <img
+                        <img
                     src={cards.img}
                     className="w-full 2xl:h-[420px] md:h-[35\00px] h-[220px]"
                     alt="Louvre"
@@ -71,7 +72,7 @@ export default function LatestGallery() {
                         <h4 className="txet-[#d8232a]">{cards.name}</h4>
                         <a className="text-2xl font-medium text-white cursor-pointer hover:yellow ">
                           {cards.status}
-                        </a>
+                        </a>                      
                         <div className="w-12 pt-4 mx-auto border-b-4 border-[#f98f04]"></div>
                       </div>
                     </div>

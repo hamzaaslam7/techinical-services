@@ -43,7 +43,7 @@ function Countsup() {
                 />
               </span>
               <h1 className="w-16 mx-auto text-[40px]">
-                <CountUp start={0} end={30} duration={2.75}>
+                <CountUp start={0} end={123} duration={2.75}>
                   {({ countUpRef, start }) => (
                     <div>
                       <span ref={countUpRef} />
@@ -57,13 +57,12 @@ function Countsup() {
             <div className="flex flex-col w-full gap-2 text-center">
               <span className="">
                 {" "}
-                <img
-                  src="/images/star-stoke.svg"
+                <img src="/images/star-stoke.svg" 
                   className="w-[40px] mx-auto h-[40px]"
                 />
               </span>
               <h1 className=" mx-auto text-[40px]">
-                <CountUp start={0} end={345} duration={2.75}>
+                <CountUp start={0} end={3245} duration={2.75}>
                   {({ countUpRef, start }) => (
                     <div>
                       <span ref={countUpRef} />
@@ -98,18 +97,18 @@ function Countsup() {
         </div>
       </section>
       <section className="bg-[#292d77]">
-        <div className="py-10 text-white  lg:py-36">
+        <div className="py-10 text-white lg:py-36">
           <div className="container relative w-full px-4 mx-auto 2xl:px-20 lg:px-6 ">
             <div className="flex flex-col gap-4 lg:gap-6">
               <p className="text-center ">MEET OUR TEAM</p>
               <h2 className="text-center lg:text-5xl md:text-3xl text-[22px] justify-center flex mx-auto ">
-                We Are a Team Of Professionals
+                A Professional Our Team
               </h2>
               <div className="w-16 h-[6px] mx-auto redBg"></div>
-              {/* <p className="font-thin text-center ">
+              <p className="font-thin text-center ">
                 Boldman has 10+ years of experience with providing wide area of
                 specialty services works listed below.
-              </p> */}
+              </p>
             </div>
           </div>
         </div>

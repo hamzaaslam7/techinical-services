@@ -33,22 +33,20 @@ export default function FollowSteps() {
         <div className="flex flex-col mb-16 ">
           <p className="text-center text-[#8d9297] mb-3">RECENTLY COMPLETED</p>
           <h2 className="flex mx-auto  text-center lg:text-5xl md:text-3xl text-[22px] purpleClr">
+
             Our Latest Projects
           </h2>
           <div className="w-12 pt-4 mx-auto border-b-6 border-[#d8232a]"></div>
-          <p className="text-center text-[#8d9297]">
-            We are a team of professional and skilled Engineers in all domestic
-            Areas.
-          </p>
+          <p className="text-center text-[#8d9297]">We are a team of professional and skilled experts in all domestic spheres.</p>
         </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 2xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3">
           {cards.map((cards, key) => {
             return (
               <>
                 <div className="relative py-6 overflow-hidden relative text-center bg-[#0000002b] rounded group">
-                  <span className="inline-block w-12 absolute left-0 top-0 flex items-center justify-center h-12 group-hover:bg-[#f98f04] text-white rounded-br-full text-xl bg-[#292d77]">
-                    {cards.number}
-                  </span>
+                <span className="inline-block w-12 absolute left-0 top-0 flex items-center justify-center h-12 group-hover:bg-[#f98f04] text-white rounded-br-full text-xl bg-[#292d77]">
+                      {cards.number}
+                    </span>
                   <div className="relative h-[210px] w-[210px] rounded-full mx-auto">
                     {/* <span className="inline-block w-12 absolute right-3 top-3 flex items-center justify-center h-12 group-hover:bg-[#f98f04] text-white rounded-full text-xl bg-[#292d77]">
                       {cards.number}
