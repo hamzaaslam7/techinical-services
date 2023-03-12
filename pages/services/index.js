@@ -6,44 +6,44 @@ import React from "react";
 export default function index() {
   const cards = [
     {
-      img: "/images/05.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      img: "/images/08.jpg",
+      name: "AC(Air Conditionier)",
+      status: "Installation & Maintenance",
     },
     {
       img: "/images/06.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      name: "Painting Services",
+      status: "Interior & Exterior",
     },
     {
       img: "/images/07.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      name: "Carpentry Work ",
+      status: "Wood Flooring",
     },
     {
-      img: "/images/08.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      img: "/images/04.jpg",
+      name: "Electrical Fixture",
+      status: "Installation & Repairing",
     },
     {
       img: "/images/09.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      name: "Plumbing & Sanitary",
+      status: "Installation & Maintenance",
     },
     {
       img: "/images/02.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      name: "Home Appliances",
+      status: "Repairing Services",
     },
     {
       img: "/images/image17.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      name: "False Ceiling & Partitions",
+      status: "Installation & Maintenance",
     },
     {
       img: "/images/image18.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      name: "Buildings Cleaning",
+      status: "Services",
     },
   ];
   return (
@@ -74,11 +74,10 @@ export default function index() {
           <div className="flex flex-col gap-3 mb-5 lg:gap-6 lg:mb-10 md:mb-6">
             <p className="text-center grayClr">OUR SERVICES</p>
             <h2 className="text-center lg:text-5xl md:text-3xl text-[22px] md:w-[50%] flex mx-auto purpleClr">
-              What You Will Get Form Us Check It
+            What You Will Get Form Us Check Here
             </h2>
             <p className="font-thin text-center grayClr">
-              We are a team of professional and skilled experts in all domestic
-              spheres.
+            We are a team of professional and skilled Engineers.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 md:grid-cols-2">

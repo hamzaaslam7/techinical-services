@@ -12,30 +12,27 @@ function Experience2() {
             <div className="text-5xl pl-5 border-l-[6px] border-[#f98f04]">
               <div className="flex flex-col ">
                 <p className="text-xs font-medium grayClr">
-                  WELCOME TO THAMES GLOBAL
+                Welcome To Basat Anwer Technical Services LLC
                 </p>
                 <h1 className="text-3xl md:text-4xl lg:text-4xl purpleClr">
-                  We Have 25 Years Experience
+                We Have More Than 10 Years Experience
                 </h1>
               </div>
             </div>
           </div>
           <h3 className="grayClr text-sm md:text-[17px] my-5 ">
-            We are a team of professional and skilled experts in all domestic
-            spheres. We offer a wide range of services and at the same time
+          We are a team of professional and skilled Engineers in all domestic
+            Areas. We offer a wide range of services and at the same time.
           </h3>
           <p className="text-sm grayClr md:leading-[27px] ">
-            Thames Global is one the leading technical companies in the UAE and
-            we are located at Al Qusais Industrial area 4,Dubai, United Arab
-            Emirates. We provide Air Conditioning,Electrical, Plumbing painting
-            and all types of technical supports.We work to ensure people’s
-            comfort at their home, and to provide the best and the fastest help
-            at fair prices. We stand for quality, safety and credibility, so you
-            could be sure about our work. Initially we started as a company
-            specializing in Thames Shipping Cargo Services . During our
-            successful work we expanded our list of services. Now we are proud
-            that we can help people with Air Conditioning,Electrical, Plumbing
-            and painting services.
+          Basat Anwer Technical Services LLC is one of the leading &
+            innovative maintenance service providers in the Emirate of Dubai. We
+            have a professional team of Engineers and Experienced Skilled
+            persons. We increase employee comfort, Safety, and productivity,
+            lower expenses and guarantee that your organization complies with
+            rules and regulations. We are constantly working to increase
+            delivery performance and customer satisfaction because we care about
+            our clients.
           </p>
 
         </div>

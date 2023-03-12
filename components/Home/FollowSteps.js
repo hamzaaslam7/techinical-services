@@ -37,7 +37,8 @@ export default function FollowSteps() {
             Our Latest Projects
           </h2>
           <div className="w-12 pt-4 mx-auto border-b-6 border-[#d8232a]"></div>
-          <p className="text-center text-[#8d9297]">We are a team of professional and skilled experts in all domestic spheres.</p>
+          <p className="text-center text-[#8d9297]">  We are a team of professional and skilled Engineers in all domestic
+            Areas.</p>
         </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 2xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3">
           {cards.map((cards, key) => {

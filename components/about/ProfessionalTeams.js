@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import {
   faChevronLeft,
   faChevronRight,
@@ -48,25 +49,25 @@ export default function ProfessionalTeams() {
   };
   const cards = [
     {
-      img: "/images/team-img01.jpg",
-      name: "Shoaib Akmal",
+      img: "/images/basat.jpg",
+      name: "Muhammad Basa",
       status: "Co-founder & CEO",
     },
     {
-      img: "/images/team-img02.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      img: "/images/Siam_pic.jpg",
+      name: "Siam Hassan",
+      status: "Software Engineer, Marketing Manager",
     },
-    {
-      img: "/images/team-img03.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
-    },
-    {
-      img: "/images/team-img04.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
-    },
+    // {
+    //   img: "/images/team-img03.jpg",
+    //   name: "Shoaib Akmal",
+    //   status: "Co-founder & CEO",
+    // },
+    // {
+    //   img: "/images/team-img04.jpg",
+    //   name: "Shoaib Akmal",
+    //   status: "Co-founder & CEO",
+    // },
 
   ];
   return (

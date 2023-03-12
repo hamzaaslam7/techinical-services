@@ -7,18 +7,18 @@ export default function AboutCards() {
     {
       img: "/images/flag-solid.svg",
       name: "Our History",
-      description: "We are a team of professional and skilled experts in all domestic spheres. We offer a wide range of services and at the same time",
+      description: "We are a team of professional and skilled Engineers in all domestic Areas including Electrical, Software, Mechanical and civil Engineers",
     }, {
       img: "/images/bag.svg",
     
       name: "Our History",
-      description: "We are a team of professional and skilled experts in all domestic spheres. We offer a wide range of services and at the same time",
+      description: "We are a team of professional and skilled Engineers in all domestic Areas including Electrical, Software, Mechanical and civil Engineers",
     },
     {
       img: "/images/eye-regular.svg",
       
       name: "Our History",
-      description: "We are a team of professional and skilled experts in all domestic spheres. We offer a wide range of services and at the same time",
+      description: "We are a team of professional and skilled Engineers in all domestic Areas including Electrical, Software, Mechanical and civil Engineers",
     },
   ];
   return (

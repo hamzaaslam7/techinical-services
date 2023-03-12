@@ -93,11 +93,11 @@ export default class AutoPlayMethods extends Component {
         <div className="flex flex-col gap-6 mb-3 lg:mb-7 md:mb6">
           <p className="text-center grayClr">OUR SERVICES</p>
           <h2 className="text-center lg:text-5xl md:text-3xl text-[22px] md:w-[50%] flex mx-auto purpleClr">
-            What You Will Get Form Us Check It
+          What Will You Get From Us Check Here
           </h2>
           <p className="font-thin text-center grayClr">
-            We are a team of professional and skilled experts in all domestic
-            spheres.
+          We are a team of professional and skilled Engineers in all domestic
+            Areas.
           </p>
         </div>
         <link

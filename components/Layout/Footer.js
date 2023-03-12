@@ -19,7 +19,7 @@ function Footer() {
                   />
                 </Link>
                 <p className="pt-4 lg:text-[16px] md:text-sm font-thin text-xs ">
-                  Basat Anwer Technical Services LLC is a top and
+                Basat Anwer Technical Services LLC is a top and
                   forward-thinking maintenance service provider in the Emirate
                   of Dubai. Our team comprises professional Engineers and
                   Skilled individuals who prioritize Customer’s comfort, Safety

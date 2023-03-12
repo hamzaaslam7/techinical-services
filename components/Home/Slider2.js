@@ -10,7 +10,7 @@ export default function Slider2() {
     {
       Image: "https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp",
       heading: "rELIABLE",
-      subHeading: "professional in UAE",
+      subHeading: "professionals in UAE",
       text: " Some representative placeholder content for the first slide. Some representative placeholder content for the first slide.",
       button: "REQUEST A QUOTE",
       button2: "How We Work",
