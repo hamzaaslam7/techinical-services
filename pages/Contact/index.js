@@ -127,11 +127,9 @@ export default function index() {
                       </li>
                     </ul>
                     <ul className="list-none ">
-                      <li> Thames Global Technical Services LLC</li>
-                      <li>Plot No: 2470362,Property -1 warehouse.</li>
-                      <li>Hamda Fardan Abdulla Al Qusais Industrial area 4.</li>
-                      <li>Dubai, United Arab Emirates.</li>{" "}
-                      <li>Office Direct Contact Person : Eng Muhammad Basat</li>
+                      <li> Office No G/010 Al Fahad Building </li>
+                      <li>Hor Al Anz Diera,Dubai</li>
+                      <li>United Arab Emirates,</li>
                     </ul>
                   </div>
                   <div className="flex w-full mb-2 lg:mb-4">
@@ -160,7 +158,7 @@ export default function index() {
                       />{" "}
                     </li>
                     <li>
-                      <a href="mailto:info@thamesglobaluae.com">
+                      <a href="mailto:info@basatanwertech.com">
                         info@basatanwertech.com
                       </a>{" "}
                     </li>
