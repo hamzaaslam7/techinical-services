@@ -2,12 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faDiscord,
-  faFacebook,
-  faLinkedin,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
@@ -25,7 +20,7 @@ function Footer() {
                     className="h-10 md:h-20"
                     src="./images/header-logo.jpeg"
                     alt="AmazonPublishigPros"
-                  /> */}
+                  /> 
                 </Link>
                 <p className="pt-4 lg:text-[16px] md:text-sm font-thin text-xs ">
                   Basat Anwer Technical Services LLC is a top and
