@@ -57,7 +57,8 @@ function Countsup() {
             <div className="flex flex-col w-full gap-2 text-center">
               <span className="">
                 {" "}
-                <img src="/images/star-stoke.svg" 
+                <img
+                  src="/images/star-stoke.svg"
                   className="w-[40px] mx-auto h-[40px]"
                 />
               </span>
@@ -102,7 +103,7 @@ function Countsup() {
             <div className="flex flex-col gap-4 lg:gap-6">
               <p className="text-center ">MEET OUR TEAM</p>
               <h2 className="text-center lg:text-5xl md:text-3xl text-[22px] justify-center flex mx-auto ">
-              We Are a Team Of Professionals
+                We Are a Team Of Professionals
               </h2>
               <div className="w-16 h-[6px] mx-auto redBg"></div>
               {/* <p className="font-thin text-center ">

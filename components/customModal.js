@@ -12,9 +12,9 @@ function CustomModal({ isOpen, setIsOpen }) {
   const returnNumber = () => {
     switch (router.locale) {
       case "en":
-        return "0558903316";
+        return "+971524052485";
       default:
-        return "0558903316";
+        return "+971524052485";
     }
   };
 

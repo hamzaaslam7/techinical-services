@@ -19,7 +19,7 @@ function Footer() {
                   />
                 </Link>
                 <p className="pt-4 lg:text-[16px] md:text-sm font-thin text-xs ">
-                Basat Anwer Technical Services LLC is a top and
+                  Basat Anwer Technical Services LLC is a top and
                   forward-thinking maintenance service provider in the Emirate
                   of Dubai. Our team comprises professional Engineers and
                   Skilled individuals who prioritize Customer’s comfort, Safety
@@ -39,22 +39,19 @@ function Footer() {
                     <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <a href="about-us">About Us</a>
+                    <a href="About">About Us</a>
                   </li>
                   <li>
-                    <a href="our-services">Our Services </a>
+                    <a href="services">Our Services </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="our-portfolio">Our Portfolio</a>
+                  </li> */}
+                  <li>
+                    <a href="Gallery">Gallery</a>
                   </li>
                   <li>
-                    <a href="client-testimonials">Client Testimonial</a>
-                  </li>
-                  <li>
-                    <a href="contact-us">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="amazon-publishing-service">Amazon Publishing </a>
+                    <a href="Contact">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -86,7 +83,7 @@ function Footer() {
                     <a href="book-publishing-service">Painting Services</a>
                   </li>
                   <li>
-                    <a>False Ceiling Service</a>
+                    <a href="book-publishing-service">False Ceiling Service</a>
                   </li>
                 </ul>
               </div>
@@ -99,7 +96,7 @@ function Footer() {
                   <li className="flex items-start gap-1">
                     <img
                       className="h-4 w-6 mt-1.5"
-                      src="/images/mapIcon.png"
+                      src="/images/map1.png"
                       alt="image"
                     />
                     <Link className="flex" href="/">
@@ -143,7 +140,7 @@ function Footer() {
                   <li className="flex ">
                     <img
                       className="h-4 w-6 mt-1.5"
-                      src="/images/mobiel.svg"
+                      src="/images/mbl.png"
                       alt="image"
                     />
                     <a href="tel:+1 (646) 458-4222"> +971524052485</a>
@@ -156,7 +153,7 @@ function Footer() {
         <div className="container justify-between px-4 pt-8 mx-auto 2xl:px-20 lg:px-6 md:flex ">
           <div className="flex flex-row justify-between">
             <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
-              <Link href="" className="">
+              <Link href="https://www.facebook.com/basatanwertech" className="">
                 <svg
                   fill="currentColor"
                   stroke-linecap="round"
@@ -168,7 +165,10 @@ function Footer() {
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
               </Link>
-              <Link href="" className="ml-3 ">
+              <Link
+                href="https://twitter.com/basatanwertech?t=jsAiGhNxSIA_GT8lbPFf6g&s=09"
+                className="ml-3 "
+              >
                 <svg
                   fill="currentColor"
                   stroke-linecap="round"
@@ -180,7 +180,10 @@ function Footer() {
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
               </Link>
-              <Link href="" className="ml-3 ">
+              <Link
+                href="https://instagram.com/basatanwertech?igshid=ZDdkNTZiNTM="
+                className="ml-3 "
+              >
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -194,7 +197,10 @@ function Footer() {
                   <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                 </svg>
               </Link>
-              <Link href="" className="ml-3 ">
+              <Link
+                href="https://www.linkedin.com/company/basat-anwer-technical-services-llc/"
+                className="ml-3 "
+              >
                 <svg
                   fill="currentColor"
                   stroke="currentColor"

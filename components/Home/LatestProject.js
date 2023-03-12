@@ -3,19 +3,19 @@ import React from "react";
 export default function LatestProject() {
   const cards = [
     {
-      img: "/images/01.jpg",
-      name: "Painting, Plumbing",
-      status: "Plumbing",
+      img: "/images/plumbing.png",
+      name: "Interior Design & Plumbing",
+      status: "Plumbing & Interior Design",
     },
     {
-      img: "/images/02.jpg",
-      name: "Tiles repair",
+      img: "/images/tvroom.png",
+      name: "Interior Design",
       status: "Home Maintenance",
     },
     {
-      img: "/images/03.jpg",
-      name: "Flooring, Plumbing",
-      status: "Floor Flooring",
+      img: "/images/tiling.png",
+      name: "Tiles, Repair",
+      status: "Home Maintenance",
     },
     {
       img: "/images/04.jpg",
@@ -24,20 +24,22 @@ export default function LatestProject() {
     },
     {
       img: "/images/05.jpg",
-      name: "Electrical, Painting",
-      status: "Co-founder & CEO",
+      name: "Electrictian & Machine Repairing",
+      status: "Electrician & Maintenance",
     },
     {
       img: "/images/06.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      name: "Painting & Interior",
+      status: "Painting & Design",
     },
   ];
   return (
     <section className="py-6 lg:py-20 md:py-10 Latest-Projects">
       <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
         <div className="flex flex-col gap-3 text-white lg:gap-6 md:gap-4">
-          <p className="text-sm text-center md:text-lg grayClr">RECENTLY COMPLETED</p>
+          <p className="text-sm text-center md:text-lg grayClr">
+            RECENTLY COMPLETED
+          </p>
           <h2 className="mb-4 text-2xl text-center lg:mb-10 md:mb-8 lg:text-5xl md:text-4xl">
             Our Latest Projects
           </h2>
@@ -73,9 +75,9 @@ export default function LatestProject() {
           })}
         </div>
         <div className="mt-4 lg:mt-12 md:mt-6">
-        <button className=" w-fit flex mx-auto hover:bg-[#f98f04] hover:border-[#f98f04] hover:text-[#ffffff] text-white  p-3 px-12 uppercase   border-[#ffffff] border-2">
-        VIEW MORE GALLERY
-        </button>
+          <button className=" w-fit flex mx-auto hover:bg-[#f98f04] hover:border-[#f98f04] hover:text-[#ffffff] text-white  p-3 px-12 uppercase   border-[#ffffff] border-2">
+            VIEW MORE GALLERY
+          </button>
         </div>
       </div>
     </section>
