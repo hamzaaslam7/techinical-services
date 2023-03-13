@@ -1,3 +1,7 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
+import React, { useState } from "react";
+
 import {
   faHouse,
   faInbox,
@@ -10,9 +14,16 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-import React from "react";
 
-export default function index() {
+export default function Index() {
+
+  const [contactUs, setContact] = useState({
+    name:"",
+  })
+  const handleInputField =(e)=>{
+const [name,value] = e.target
+setContact({...contactUs,[name]:value})
+  } 
   return (
     <>
       <section className="lg:py-16 md:py-10 py-6 text-white bg-[#292d77]">
