@@ -3,19 +3,19 @@ import React from "react";
 export default function LatestGallery() {
   const cards = [
     {
-      img: "/images/01.jpg",
-      name: "Painting, Plumbing",
-      status: "Plumbing",
-    },
-    {
-      img: "/images/02.jpg",
-      name: "Tiles repair",
+      img: "/images/tvroom.png",
+      name: "Interior Designe",
       status: "Home Maintenance",
     },
     {
-      img: "/images/03.jpg",
-      name: "Flooring, Plumbing",
-      status: "Floor Flooring",
+      img: "/images/tiling.png",
+      name: "Tiles Repair",
+      status: "Home Maintenance",
+    },
+    {
+      img: "/images/intr_ds.png",
+      name: "Interior Design",
+      status: "Home Maintenance",
     },
     {
       img: "/images/04.jpg",
@@ -23,14 +23,14 @@ export default function LatestGallery() {
       status: "Drywall Insulation",
     },
     {
-      img: "/images/05.jpg",
-      name: "Electrical, Painting",
-      status: "Co-founder & CEO",
+      img: "/images/in_ds.jpg",
+      name: "Design, Painting",
+      status: "Home Maintenance",
     },
     {
-      img: "/images/061.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      img: "/images/in_ds.png",
+      name: "Interior Design",
+      status: "Design & Home Maintenance",
     },
     {
       img: "/images/07.jpg",
@@ -39,25 +39,24 @@ export default function LatestGallery() {
     },
     {
       img: "/images/08.jpg",
-      name: "Electrical, Painting",
-      status: "Co-founder & CEO",
+      name: "AC, Repairing",
+      status: "AC(Air Condition) & Repairing",
     },
     {
       img: "/images/09.jpg",
-      name: "Shoaib Akmal",
-      status: "Co-founder & CEO",
+      name: "Plumbing and Repairing",
+      status: "Plumbing & Repairing",
     },
   ];
   return (
     <section className="py-6 lg:py-20 md:py-10 ">
-  
       <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
         <div className="grid grid-cols-1 gap-8 bg-white lg:grid-cols-3 sm:grid-cols-2">
           {cards.map((cards, key) => {
             return (
               <>
                 <div className="relative w-full overflow-hidden lg:h-[280px] bg-no-repeat bg-cover group">
-                        <img
+                  <img
                     src={cards.img}
                     className="w-full 2xl:h-[420px] md:h-[35\00px] h-[220px]"
                     alt="Louvre"
@@ -72,7 +71,7 @@ export default function LatestGallery() {
                         <h4 className="txet-[#d8232a]">{cards.name}</h4>
                         <a className="text-2xl font-medium text-white cursor-pointer hover:yellow ">
                           {cards.status}
-                        </a>                      
+                        </a>
                         <div className="w-12 pt-4 mx-auto border-b-4 border-[#f98f04]"></div>
                       </div>
                     </div>

@@ -12,20 +12,20 @@ function Experience2() {
             <div className="text-5xl pl-5 border-l-[6px] border-[#f98f04]">
               <div className="flex flex-col ">
                 <p className="text-xs font-medium grayClr">
-                Welcome To Basat Anwer Technical Services LLC
+                  Welcome To Basat Anwer Technical Services LLC
                 </p>
                 <h1 className="text-3xl md:text-4xl lg:text-4xl purpleClr">
-                We Have More Than 10 Years Experience
+                  We Have More Than 10 Years Experience
                 </h1>
               </div>
             </div>
           </div>
           <h3 className="grayClr text-sm md:text-[17px] my-5 ">
-          We are a team of professional and skilled Engineers in all domestic
-            Areas. We offer a wide range of services and at the same time.
+            We are a team of professional and skilled Engineers in all domestic
+            Areas. We offer a wide range of services.
           </h3>
           <p className="text-sm grayClr md:leading-[27px] ">
-          Basat Anwer Technical Services LLC is one of the leading &
+            Basat Anwer Technical Services LLC is one of the leading &
             innovative maintenance service providers in the Emirate of Dubai. We
             have a professional team of Engineers and Experienced Skilled
             persons. We increase employee comfort, Safety, and productivity,
@@ -34,9 +34,7 @@ function Experience2() {
             delivery performance and customer satisfaction because we care about
             our clients.
           </p>
-
         </div>
-
       </div>
     </div>
   );

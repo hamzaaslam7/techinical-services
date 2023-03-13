@@ -7,10 +7,10 @@ export default function GetSolutions() {
         <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
           <div className="flex flex-col ">
             <p className="text-center md:text-lg text-sm font-semibold tracking-widest text-[#ffffff] mb-3">
-            Don't Know Where To Start?
+              Don't Know Where To Start?
             </p>
             <h2 className="flex mx-auto lg:text-6xl lg:max-w-3xl md:text-4xl text-[22px] text-center text-[#ffffff]">
-            Get Solutions For All Of Your Services
+              Get Solutions For All Of Your Problems
             </h2>
           </div>
         </div>
@@ -65,7 +65,6 @@ export default function GetSolutions() {
             </div>
             <div className="relative w-full mt-4 lg:mt-0 lg:w-1/3">
               <div className="relative w-full mx-auto bg-no-repeat bg-cover lg:w-full md:w-1/2 group">
-               
                 <img
                   src="/images/col-bgimage-3.jpg"
                   className="w-full h-[100%]"
@@ -84,7 +83,7 @@ export default function GetSolutions() {
                       </h4>
                       <div className="mt-4 lg:mt-12 md:mt-6">
                         <button className=" w-fit flex hover:bg-[#f98f04] hover:border-[#f98f04] hover:text-[#ffffff] text-white  p-3 px-12 uppercase   border-[#ffffff] border-2">
-                        Contact Us
+                          Contact Us
                         </button>
                       </div>
                     </div>

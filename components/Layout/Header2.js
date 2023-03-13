@@ -124,7 +124,7 @@ export default function Header2() {
                         } `}
                         onClick={toggleMenu}
                       >
-                        AboutUs
+                        About Us
                       </div>
                     </Link>
                   </li>
@@ -160,7 +160,7 @@ export default function Header2() {
                         } `}
                         onClick={toggleMenu}
                       >
-                        Contect Us
+                        Contact Us
                       </div>
                     </Link>
                   </li>
@@ -169,7 +169,7 @@ export default function Header2() {
                       className="lg:w-[200px] w-[150] whitespace-nowrap  mx-auto lg:h-[45px] text-white px-3 lg:text-lg text-sm redBg flex items-center justify-center h-9"
                       onClick={toggleMenu}
                     >
-                      REQUEST QUOTE
+                      GET FREE QUOTE NOW
                     </button>
                   </li>
                 </ul>
