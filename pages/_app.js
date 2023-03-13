@@ -8,7 +8,7 @@ import { useState } from "react";
 import ScrollToTop from "react-scroll-up";
 import Header2 from "@/components/Layout/Header2";
 import CustomModal from "@/components/customModal";
-import { WhatsAppWidget } from "react-whatsapp-widget";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 export default function App({ Component, pageProps }) {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -32,9 +32,16 @@ export default function App({ Component, pageProps }) {
       <Footer />
       <button
         onClick={openModal}
-        className="fixed w-26 h-10 text-sm bg-white border rounded cursor-pointer right-5 bottom-2"
+        className="fixed w-16 h-10 text-sm bg-white border rounded cursor-pointer right-5 bottom-2"
       >
-        Whatsapp
+        <a
+          target="_blank"
+          rel="noreferrer"
+          className="icon-colour  home-social-icons"
+          style={{ color: "red", padding: "50px" }}
+        >
+          <AiOutlineWhatsApp />
+        </a>
       </button>
       <CustomModal isOpen={isOpen} setIsOpen={setIsOpen} />
       <ScrollToTop className="bg-black" showUnder={160}>

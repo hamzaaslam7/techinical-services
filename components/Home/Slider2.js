@@ -11,7 +11,7 @@ export default function Slider2() {
       Image: "https://mdbootstrap.com/img/Photos/Slides/img%20(29).webp",
       heading: "Proven",
       subHeading: "Professionals in the UAE",
-      text: " Some representative placeholder content for the first slide. Some representative placeholder content for the first slide.",
+      text: " A UAE-based technical company offers a wide range of technological solutions and services.",
       button: "REQUEST A QUOTE",
       button2: "How We Work",
     },
@@ -20,13 +20,13 @@ export default function Slider2() {
       subHeading: "Experienced Experts in the UAE",
       button: "REQUEST A QUOTE",
 
-      text: "  Some representative placeholder content for the second slide.",
+      text: "  A UAE-based technical company offers a wide range of technological solutions and services.",
     },
     {
       Image: "/images/01.jpg",
       button: "REQUEST A QUOTE",
       heading: "Trustworthy experts in the UAE",
-      text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of adocument or a typeface without relying on meaningful content.  Lorem ipsum may be used as a placeholder before final copy is available.",
+      text: "A UAE-based technical company offers a wide range of technological solutions and services.",
     },
   ];
   var settings = {
