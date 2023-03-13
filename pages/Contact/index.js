@@ -20,10 +20,15 @@ export default function Index() {
   const [contactUs, setContact] = useState({
     name:"",
   })
+
   const handleInputField =(e)=>{
-const [name,value] = e.target
-setContact({...contactUs,[name]:value})
+  const [name,value] = e.target
+  setContact({...contactUs,[name]:value})
   } 
+
+  const handleSubmit = ()=>{
+    
+  }
   return (
     <>
       <section className="lg:py-16 md:py-10 py-6 text-white bg-[#292d77]">
@@ -73,6 +78,7 @@ setContact({...contactUs,[name]:value})
                     placeholder="Your Name"
                     id="name"
                     name="name"
+                    onChange={handleInputField}
                     className="w-full px-3 pl-6 bg-white border-b border-gray-100 focus:outline-none active:outline-none h-14 focus:border-gray-200 active:border-gray-200 "
                   />
                 </div>
@@ -82,9 +88,11 @@ setContact({...contactUs,[name]:value})
                     className="absolute w-6 text-[#f98f04e2] -left-4"
                   />
                   <input
-                    type="munber"
+                    type="number"
                     id="number"
+                    name="number"
                     placeholder="Cell Phone"
+                    onChange={handleInputField}
                     className="w-full px-3 pl-6 bg-white border-b border-gray-100 focus:outline-none active:outline-none h-14 focus:border-gray-200 active:border-gray-200 "
                   />
                 </div>
@@ -94,9 +102,11 @@ setContact({...contactUs,[name]:value})
                     className="absolute w-6 text-[#f98f04e2] -left-4"
                   />
                   <input
-                    type="munber"
+                    type="email"
                     id="number"
+                    name="email"
                     placeholder="Email"
+                    onChange={handleInputField}
                     className="w-full px-3 pl-6 bg-white border-b border-gray-100 focus:outline-none active:outline-none h-14 focus:border-gray-200 active:border-gray-200 "
                   />
                 </div>
@@ -107,8 +117,9 @@ setContact({...contactUs,[name]:value})
                   />
                   <input
                     type="text"
-                    id="email"
+                    name="venue"
                     placeholder="Venue"
+                    onChange={handleInputField}
                     className="w-full px-3 pl-6 bg-white border-b border-gray-100 focus:outline-none active:outline-none h-14 focus:border-gray-200 active:border-gray-200 "
                   />
                 </div>
@@ -119,10 +130,11 @@ setContact({...contactUs,[name]:value})
                   id="message"
                   placeholder="Your Massage"
                   name="message"
+                  onChange={handleInputField}
                   className="w-full h-24 px-3 py-3 pl-6 bg-white border-b border-gray-100 rounded focus:outline-none active:outline-none focus:border-gray-200 active:border-gray-200"
                 ></textarea>
               </div>
-              <button className="text-white bg-[#f98f04] border-0 w-44 md:mt-5 mt-4 h-14 px-2 focus:outline-none hover:bg-[#f98f04] rounded text-sm">
+              <button className="text-white bg-[#f98f04] border-0 w-44 md:mt-5 mt-4 h-14 px-2 focus:outline-none hover:bg-[#f98f04] rounded text-sm" onClick={handleSubmit}>
                 SUBMIT
               </button>
             </div>
