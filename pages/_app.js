@@ -17,9 +17,9 @@ export default function App({ Component, pageProps }) {
   const returnNumber = () => {
     switch (router.locale) {
       case "en":
-        return "0558903316";
+        return "03085281585";
       default:
-        return "0558903316";
+        return "03085281585";
     }
   };
   // const [isOpen, setIsOpen] = useState(false);
@@ -49,7 +49,7 @@ export default function App({ Component, pageProps }) {
         <a
           target="_blank"
           rel="noreferrer"
-          className="icon-colour  home-social-icons"
+          className="icon-colour home-social-icons"
           style={{ color: "red", padding: "50px" }}
         >
           <AiOutlineWhatsApp />
@@ -59,8 +59,7 @@ export default function App({ Component, pageProps }) {
       <Link
         target={"_blank"}
         href={`https://api.whatsapp.com/send?phone=${returnNumber()}&text=Hello! 👋🏼 What can we do for you?`}
-        className="flex items-center  text-lg font-medium leading-normal text-gray-800 whitespace-nowrap fixed w-14 h-14  justify-center  bg-white border rounded-full shadow-lg cursor-pointer left-5 bottom-2"
-        id="exampleModalSmLabel"
+        className="fixed flex items-center justify-center text-lg font-medium leading-normal text-gray-800 bg-white border rounded-full shadow-lg cursor-pointer whitespace-nowrap w-14 h-14 left-5 bottom-2"
       >
         <div className="">
           <Image
