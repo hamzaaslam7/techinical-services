@@ -46,7 +46,7 @@ function Experience() {
                   />
                 </div>
                 <div className="w-16">
-                  <CountUp start={1} end={300} duration={2.75}>
+                  <CountUp start={300} end={300} duration={2.75}>
                     {({ countUpRef, start }) => (
                       <div>
                         <span ref={countUpRef} />
@@ -72,7 +72,7 @@ function Experience() {
                   />
                 </span>
                 <div className="w-16">
-                  <CountUp start={1} end={125} duration={2.75}>
+                  <CountUp start={125} end={125} duration={2.75}>
                     {({ countUpRef, start }) => (
                       <div>
                         <span ref={countUpRef} />
@@ -98,7 +98,7 @@ function Experience() {
                   />
                 </span>
                 <div className="w-16">
-                  <CountUp start={1} end={10} duration={2.75}>
+                  <CountUp start={10} end={10} duration={2.75}>
                     {({ countUpRef, start }) => (
                       <div>
                         <span ref={countUpRef} />
