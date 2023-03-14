@@ -8,20 +8,22 @@ import { useState } from "react";
 import ScrollToTop from "react-scroll-up";
 import Header2 from "@/components/Layout/Header2";
 // import CustomModal from "@/components/customModal";
+import "react-whatsapp-widget/dist/index.css";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
+import { WhatsAppWidget } from "react-whatsapp-widget";
 export default function App({ Component, pageProps }) {
   const router = useRouter();
-  const returnNumber = () => {
-    switch (router.locale) {
-      case "en":
-        return "03085281585";
-      default:
-        return "03085281585";
-    }
-  };
+  // const returnNumber = () => {
+  //   switch (router.locale) {
+  //     case "en":
+  //       return "03085281585";
+  //     default:
+  //       return "03085281585";
+  //   }
+  // };
   // const [isOpen, setIsOpen] = useState(false);
 
   // function openModal() {
@@ -56,7 +58,7 @@ export default function App({ Component, pageProps }) {
         </a>
       </button> */}
       {/* <CustomModal isOpen={isOpen} setIsOpen={setIsOpen} /> */}
-      <Link
+      {/* <Link
         target={"_blank"}
         href={`https://api.whatsapp.com/send?phone=${returnNumber()}&text=Hello! 👋🏼 What can we do for you?`}
         className="fixed flex items-center justify-center text-lg font-medium leading-normal text-gray-800 bg-white border rounded-full shadow-lg cursor-pointer whitespace-nowrap w-14 h-14 left-5 bottom-2"
@@ -70,12 +72,16 @@ export default function App({ Component, pageProps }) {
             src="/images/whatsapp.svg"
           />
         </div>
-      </Link>
+      </Link> */}
+
       <ScrollToTop className="bg-black" showUnder={160}>
         <span className="w-10 h-10 bg-black ScrollToTop">
           <img src="/images/arrow-down.svg" className="w-5 md:w-10" />{" "}
         </span>
       </ScrollToTop>
+
+      <WhatsAppWidget phoneNumber="+923085281585" />
+
       {/* <Footer2 /> */}
     </>
   );
