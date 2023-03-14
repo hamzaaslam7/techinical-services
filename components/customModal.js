@@ -4,6 +4,7 @@ import React from "react";
 import { faXmark, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/router";
+import Image from "next/image";
 function CustomModal({ isOpen, setIsOpen }) {
   function closeModal() {
     setIsOpen(false);
@@ -45,9 +46,11 @@ function CustomModal({ isOpen, setIsOpen }) {
                     id="exampleModalSmLabel"
                   >
                     <div className="relative w-4 h-8 md:w-10 md:h-10">
-                      <img
-                        className="w-4 h-8 md:w-10"
-                        layout="fill"
+                      <Image
+                        className=""
+                        alt="whatsapp"
+                        width={10}
+                        height={10}
                         src="/images/whatsapp.svg"
                       />
                     </div>
