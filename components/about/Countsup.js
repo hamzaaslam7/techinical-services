@@ -97,7 +97,7 @@ function Countsup() {
         </div>
       </section>
       <section className="bg-[#292d77]">
-        <div className="py-10 text-white  lg:py-36">
+        <div className="py-10 text-white lg:py-36">
           <div className="container relative w-full px-4 mx-auto 2xl:px-20 lg:px-6 ">
             <div className="flex flex-col gap-4 lg:gap-6">
               <p className="text-center ">MEET OUR TEAM</p>
