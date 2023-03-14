@@ -82,7 +82,7 @@ export default function App({ Component, pageProps }) {
         </span>
       </ScrollToTop>
 
-      <WhatsAppWidget phoneNumber="+923085281585" />
+      <WhatsAppWidget phoneNumber="+971524052485" />
 
       {/* <Footer2 /> */}
     </>

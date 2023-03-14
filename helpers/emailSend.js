@@ -22,9 +22,9 @@ const sendEmail = async (obj) => {
 	      <h3>Contact Details</h3>
 	      <ul>
 	        <li>Name:${obj.name}</li>
-	        <li>Email: ${obj.number}</li>
-	        <li>Department: ${obj.email}</li>
-	        <li>Subject: ${obj.venue}</li>
+	        <li>Number: ${obj.number}</li>
+	        <li>Email: ${obj.email}</li>
+	        <li>zepCode or venue : ${obj.venue || obj.zepCode }</li>
 	        <li>Message: ${obj.message}</li>
 	      </ul>
 	  </div>

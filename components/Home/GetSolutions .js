@@ -1,6 +1,41 @@
-import React from "react";
+/* eslint-disable @next/next/no-img-element */
+import React, { useState } from "react";
 
 export default function GetSolutions() {
+  const [contactUs, setContact] = useState({
+    name: "",
+    number: "",
+    email: "",
+    zepCode: "",
+    message: "",
+  });
+  const handleInputField = (e) => {
+   
+    const { name, value } = e.target;
+    setContact({ ...contactUs, [name]: value });
+  };
+
+  const handleSubmit = async () => {
+    try {
+      const res = await fetch("/api/emailSent", {
+        body: JSON.stringify(contactUs),
+        headers: {
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+      });
+      
+      await res.json();
+      setContact({name: "",
+      number: "",
+      email: "",
+      zepCode: "",
+      message: "",})
+      
+    } catch (error) {
+      console.log(error);
+    }
+  };
   return (
     <>
       <section className="Latest-Projects lg:py-20 py-10 lg:h-[500px] bg-cover md:h-[300px] h-72">
@@ -29,37 +64,44 @@ export default function GetSolutions() {
                 <input
                   type="text"
                   placeholder="Full Name"
-                  id="name"
+                  onChange={handleInputField}
                   name="name"
+                  value={contactUs.name}
                   className="w-full px-3 bg-white border border-gray-100 h-14 focus:border-gray-200 active:border-gray-200 "
                 />
                 <input
                   type="email"
-                  id="email"
+                  onChange={handleInputField}
+                  value={contactUs.email}
                   placeholder="Email Address"
                   className="w-full px-3 bg-white border border-gray-100 h-14 focus:border-gray-200 active:border-gray-200 "
                 />
                 <input
-                  type="munber"
-                  id="number"
+                  type="text"
+                  onChange={handleInputField}
+                  name="number"
+                  value={contactUs.number}
                   placeholder="Phone Number"
                   className="w-full px-3 bg-white border border-gray-100 h-14 focus:border-gray-200 active:border-gray-200 "
                 />
                 <input
                   type="text"
-                  id="email"
+                  name="zepCode"
+                  value={contactUs.zepCode}
+                  onChange={handleInputField}
                   placeholder="Zepcode"
                   className="w-full px-3 bg-white border border-gray-100 h-14 focus:border-gray-200 active:border-gray-200 "
                 />
               </div>
               <textarea
-                id="message"
-                placeholder="Your Massage"
                 name="message"
+                placeholder="Your Massage"
+                value={contactUs.message}
+                onChange={handleInputField}
                 className="w-full h-32 px-3 py-3 bg-white border border-gray-100 rounded focus:border-gray-200 active:border-gray-200"
               ></textarea>
 
-              <button className="text-white bg-[#f98f04] border-0 lg:mt-8 md:mt-5 mt-4 h-14 px-6 focus:outline-none hover:bg-[#f98f04] rounded text-lg">
+              <button onClick={handleSubmit} className="text-white bg-[#f98f04] border-0 lg:mt-8 md:mt-5 mt-4 h-14 px-6 focus:outline-none hover:bg-[#f98f04] rounded text-lg">
                 GET A FREE QUOTE
               </button>
             </div>
