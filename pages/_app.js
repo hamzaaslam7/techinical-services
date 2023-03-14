@@ -7,14 +7,26 @@ import Script from "next/script";
 import { useState } from "react";
 import ScrollToTop from "react-scroll-up";
 import Header2 from "@/components/Layout/Header2";
-import CustomModal from "@/components/customModal";
+// import CustomModal from "@/components/customModal";
 import { AiOutlineWhatsApp } from "react-icons/ai";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import Image from "next/image";
 export default function App({ Component, pageProps }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
+  const returnNumber = () => {
+    switch (router.locale) {
+      case "en":
+        return "0558903316";
+      default:
+        return "0558903316";
+    }
+  };
+  // const [isOpen, setIsOpen] = useState(false);
 
-  function openModal() {
-    setIsOpen(true);
-  }
+  // function openModal() {
+  //   setIsOpen(true);
+  // }
   return (
     <>
       <Head>
@@ -30,7 +42,7 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </div>
       <Footer />
-      <button
+      {/* <button
         onClick={openModal}
         className="fixed w-16 h-10 text-sm bg-white border rounded cursor-pointer right-5 bottom-2"
       >
@@ -42,8 +54,24 @@ export default function App({ Component, pageProps }) {
         >
           <AiOutlineWhatsApp />
         </a>
-      </button>
-      <CustomModal isOpen={isOpen} setIsOpen={setIsOpen} />
+      </button> */}
+      {/* <CustomModal isOpen={isOpen} setIsOpen={setIsOpen} /> */}
+      <Link
+        target={"_blank"}
+        href={`https://api.whatsapp.com/send?phone=${returnNumber()}&text=Hello! 👋🏼 What can we do for you?`}
+        className="flex items-center  text-lg font-medium leading-normal text-gray-800 whitespace-nowrap fixed w-14 h-14  justify-center  bg-white border rounded-full shadow-lg cursor-pointer left-5 bottom-2"
+        id="exampleModalSmLabel"
+      >
+        <div className="">
+          <Image
+            className=""
+            alt="whatsapp"
+            width={30}
+            height={30}
+            src="/images/whatsapp.svg"
+          />
+        </div>
+      </Link>
       <ScrollToTop className="bg-black" showUnder={160}>
         <span className="w-10 h-10 bg-black ScrollToTop">
           <img src="/images/arrow-down.svg" className="w-5 md:w-10" />{" "}
