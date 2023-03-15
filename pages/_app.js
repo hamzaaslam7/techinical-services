@@ -4,14 +4,18 @@ import Footer from "@/components/Layout/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "@/styles/globals.css";
+import "@/styles/carousal.css";
 import Head from "next/head";
 import Script from "next/script";
 import ScrollToTop from "react-scroll-up";
 import Header2 from "@/components/Layout/Header2";
 import "react-whatsapp-widget/dist/index.css";
 import { WhatsAppWidget } from "react-whatsapp-widget";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 export default function App({ Component, pageProps }) {
-  
+
+
   return (
     <>
       <Head>
@@ -32,6 +36,15 @@ export default function App({ Component, pageProps }) {
         </span>
       </ScrollToTop>
       <WhatsAppWidget phoneNumber="+971524052485" />
+      <a
+        href={`tel:+971524052485`}
+        className="flex items-center text-lg font-medium leading-normal bg-white lg:w-16 lg:h-16 w-12 h-12 rounded-full justify-center fixed left-5 bottom-24 shadow-lg text-gray-800 whitespace-nowrap"
+  
+      >
+        <div className="">
+          <FontAwesomeIcon icon={faPhone} className="w-6" />
+        </div>
+      </a>
     </>
   );
 }

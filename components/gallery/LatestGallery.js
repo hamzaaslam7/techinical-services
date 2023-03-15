@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import GalleryCrousal from "./GalleryCrousal";
 
 export default function LatestGallery() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
   const cards = [
     {
       img: "/images/tvroom.png",
@@ -49,16 +55,17 @@ export default function LatestGallery() {
     },
   ];
   return (
+    <>
     <section className="py-6 lg:py-20 md:py-10 ">
       <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
         <div className="grid grid-cols-1 gap-8 bg-white lg:grid-cols-3 sm:grid-cols-2">
           {cards.map((cards, key) => {
             return (
               <>
-                <div className="relative w-full overflow-hidden lg:h-[280px] bg-no-repeat bg-cover group">
+                <div className="relative w-full overflow-hidden md:h-[326px] h-[250px] bg-no-repeat bg-cover group">
                   <img
                     src={cards.img}
-                    className="w-full 2xl:h-[420px] md:h-[35\00px] h-[220px]"
+                    className="w-full h-full"
                     alt="Louvre"
                   />
 
@@ -69,7 +76,9 @@ export default function LatestGallery() {
                     <div className="relative flex items-center justify-center w-full h-full border-white/[0.3] border">
                       <div className="">
                         <h4 className="txet-[#d8232a]">{cards.name}</h4>
-                        <a className="text-2xl font-medium text-white cursor-pointer hover:yellow ">
+                        <a 
+                          onClick={openModal}
+                         className="text-2xl font-medium text-white cursor-pointer hover:yellow ">
                           {cards.status}
                         </a>
                         <div className="w-12 pt-4 mx-auto border-b-4 border-[#f98f04]"></div>
@@ -83,5 +92,8 @@ export default function LatestGallery() {
         </div>
       </div>
     </section>
+      <GalleryCrousal isOpen={isOpen} setIsOpen={setIsOpen} />
+
+    </>
   );
 }

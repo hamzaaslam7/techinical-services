@@ -165,12 +165,13 @@ export default function Header2() {
                     </Link>
                   </li>
                   <li className="flex items-center justify-center w-1/3 mx-auto cursor-pointer first-line: md:w-auto nav-item">
-                    <button
-                      className="lg:w-[200px] w-[150] whitespace-nowrap  mx-auto lg:h-[45px] text-white px-3 lg:text-lg text-sm redBg flex items-center justify-center h-9"
+                    <a  href="#down"
+                      className="contactbtn lg:w-[220px] w-[150px] rounded-sm whitespace-nowrap  mx-auto lg:h-[45px] text-white px-3 lg:text-lg text-sm redBg flex items-center justify-center h-9"
                       onClick={toggleMenu}
+                     
                     >
                       GET FREE QUOTE NOW
-                    </button>
+                    </a>
                   </li>
                 </ul>
               </div>

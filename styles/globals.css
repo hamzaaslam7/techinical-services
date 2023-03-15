@@ -193,3 +193,7 @@ body {
   left: 20px !important;
   bottom: 20px !important;
 }
+.contactbtn
+{scroll-behavior: smooth !important;
+  transition: all 1s ease-in-out !important;
+}

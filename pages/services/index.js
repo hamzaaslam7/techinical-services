@@ -88,7 +88,7 @@ export default function index() {
                   <div className="relative w-full group-hover:bg-[#292d77] ">
                     <img
                       src={cards.img}
-                      className="w-full 2xl:h-[270px] md:h-[250px] h-[220px]"
+                      className="w-full h-full"
                       alt="Louvre"
                     />
                     <div className="flex items-center justify-center w-full text-center p-9">

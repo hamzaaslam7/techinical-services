@@ -50,7 +50,7 @@ export default function GetSolutions() {
           </div>
         </div>
       </section>
-      <section className="relative mt-8 overflow-hidden lg:mb-20 2xl:-mt-20 lg:-mt-16">
+      <section id="down" className="relative mt-8 overflow-hidden lg:mb-20 2xl:-mt-20 lg:-mt-16">
         <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
           <div className="relative flex flex-wrap w-full p-0 bg-white ">
             <div className="relative flex flex-col w-full p-3 grayS-shadow md:p-8 lg:w-2/3">
