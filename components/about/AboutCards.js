@@ -23,8 +23,8 @@ export default function AboutCards() {
   ];
   return (
     <>
-      <section className="lg:py-20 md:py-8 py-6">
-        <div className="container 2xl:px-20 lg:px-6 md:px-6 px-4 mx-auto">
+      <section className="py-6 lg:py-20 md:py-8">
+        <div className="container px-4 mx-auto 2xl:px-20 lg:px-6 md:px-6">
 
           <div className="grid justify-center grid-cols-1 gap-6 lg:grid-cols-3 md:grid-cols-2">
             {cards.map((cards, key) => {
@@ -35,7 +35,7 @@ export default function AboutCards() {
                       <div className="flex items-center justify-center"> <span className="inline-flex items-center justify-center w-20 h-20 rounded-full redBg">
                         <img src={cards.img} className="text-white text-wihte w-9 fill-white" />
                       </span></div>
-                      <h4 className="md:text-2xl text-xl purpleClr hover:text-red-600">
+                      <h4 className="text-xl md:text-2xl purpleClr hover:text-red-600">
                         <Link href=''>{cards.name}</Link></h4>
                       <p className="text-sm md:leading-6 grayClr">{cards.description}</p>
                     </div>

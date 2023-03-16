@@ -72,8 +72,8 @@ export default function ProfessionalTeams() {
   ];
   return (
     
-    <section className="lg:pb-32 py-6 lg:-mt-20 ">
-      <div className="container mx-auto 2xl:px-20 lg:px-6 px-4">
+    <section className="py-6 lg:pb-32 lg:-mt-20 ">
+      <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
         <div className="grid grid-cols-1 gap-4">
           <Slider
             ref={(slider) => (cards.slider = slider)}
@@ -86,7 +86,7 @@ export default function ProfessionalTeams() {
                   <div className="pb-4 mb-8 lg:mb-16 md:mb-12">
                     <div className="flex flex-col mx-4 bg-white shadow-xl">
                       <div className="relative w-full bg-no-repeat bg-cover group">
-                        <div className="2xl:h-[500px] md:h-[360px] h-[220px]">
+                        <div className="2xl:h-[500px] lg:h-[420px] md:h-[360px] h-[220px]">
                         <img
                           src={cards.img}
                           className="w-full h-full"
@@ -97,8 +97,8 @@ export default function ProfessionalTeams() {
                           style={{ transition: "all .3s ease-in-out" }}
                         >
                           <div className="relative">
-                            <h4 className="purpleClr text-xl">{cards.name}</h4>
-                            <p className="grayClr text-sm">{cards.status}</p>
+                            <h4 className="text-xl purpleClr">{cards.name}</h4>
+                            <p className="text-sm grayClr">{cards.status}</p>
                             <ul
                               className="flex justify-center gap-5 -mb-5 text-xl font-bold opacity-0 group-hover:mb-0 group-hover:opacity-100"
                               style={{ transition: "all .3s ease-in-out" }}

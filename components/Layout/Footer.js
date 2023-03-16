@@ -39,19 +39,19 @@ function Footer() {
                     <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <a href="About">About Us</a>
+                    <Link href="/About">About Us</Link>
                   </li>
                   <li>
-                    <a href="services">Our Services </a>
+                    <Link href="/services">Our Services </Link>
                   </li>
                   {/* <li>
                     <a href="our-portfolio">Our Portfolio</a>
                   </li> */}
                   <li>
-                    <a href="Gallery">Gallery</a>
+                    <Link href="/Gallery">Gallery</Link>
                   </li>
                   <li>
-                    <a href="Contact">Contact Us</a>
+                    <Link href="/Contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -98,6 +98,7 @@ function Footer() {
                       className="h-4 w-6 mt-1.5"
                       src="/images/map1.png"
                       alt="image"
+                      style={{filter:'invert(1)'}}
                     />
                     <Link className="flex" href="/">
                       {" "}
@@ -139,9 +140,10 @@ function Footer() {
                   </li>
                   <li className="flex ">
                     <img
-                      className="h-4 w-6 mt-1.5"
+                      className="h-4 w-6 mt-1.5 -rotate-90"
                       src="/images/mbl.png"
                       alt="image"
+                      style={{filter:'invert(1)'}}
                     />
                     <a href="tel:+1 (646) 458-4222"> +971524052485</a>
                   </li>
