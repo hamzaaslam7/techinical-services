@@ -72,6 +72,7 @@ export default function Slider2() {
         {Carousals.map((Carousals, idx) => {
           return (
             <>
+            <div className="bg-[#f3f2f210] absolute top-0 left-0 right-0 bottom-0 "></div>
               <div className="relative w-full active">
                 <img
                   src={Carousals.Image}
@@ -80,7 +81,7 @@ export default function Slider2() {
                 />
 
                 <div className="container px-6 mx-auto lg:px-20 md:px-10 ">
-                  <div className="absolute top-0 bottom-0 flex items-center justify-center grid-cols-1 text-start carousel-caption md:block gird">
+                  <div className="absolute top-0 bottom-0 flex !z-50 items-center justify-center grid-cols-1 text-start carousel-caption md:block gird">
                     <div className="flex flex-col items-start justify-center h-full my-4">
                       <div className="">
                         <button className="px-2 py-1 mb-1 text-white md:mb-2 md:p-3 md:px-5 redBg">
