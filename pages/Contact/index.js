@@ -74,7 +74,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <section className="relative lg:mb-20 lg:h-[500px]  mt-8 overflow-hidden">
+      <section className="relative lg:mb-20 lg:h-[500px]  mt-8">
         <div className="container px-4 mx-auto 2xl:px-20 lg:px-6">
           <div className="relative flex flex-wrap w-full p-0 bg-white shadow-lg ">
             <div className="relative flex flex-col w-full p-3 md:p-8 lg:w-2/3">
@@ -95,6 +95,7 @@ export default function Index() {
                     className="absolute w-6 text-[#f98f04e2] -left-4"
                   />
                   <input
+                  required
                     type="text"
                     placeholder="Your Name"
                     name="name"
@@ -109,7 +110,8 @@ export default function Index() {
                     className="absolute w-6 text-[#f98f04e2] -left-4"
                   />
                   <input
-                    type="text"
+                  required
+                    type="number"
                     name="number"
                     value={contactUs.number}
                     placeholder="Cell Phone"
@@ -123,6 +125,7 @@ export default function Index() {
                     className="absolute w-6 text-[#f98f04e2] -left-4"
                   />
                   <input
+                  required
                     type="email"
                     name="email"
                     value={contactUs.email}
@@ -137,6 +140,7 @@ export default function Index() {
                     className="absolute w-6 text-[#f98f04e2] -left-4"
                   />
                   <input
+                  required
                     type="text"
                     name="venue"
                     value={contactUs.venue}
@@ -157,7 +161,7 @@ export default function Index() {
                   className="w-full h-24 px-3 py-3 pl-6 bg-white border-b border-gray-100 rounded focus:outline-none active:outline-none focus:border-gray-200 active:border-gray-200"
                 ></textarea>
               </div>
-              <button
+              <button type="submit"
                 className="text-white bg-[#f98f04] border-0 w-44 md:mt-5 mt-4 h-14 px-2 focus:outline-none hover:bg-[#f98f04] rounded text-sm"
                 onClick={handleSubmit}
               >
