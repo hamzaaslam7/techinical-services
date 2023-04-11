@@ -6,6 +6,7 @@ import {
   faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 import CountUp from "react-countup";
 
 function Countsup() {
@@ -57,7 +58,10 @@ function Countsup() {
             <div className="flex flex-col w-full gap-2 text-center">
               <span className="">
                 {" "}
-                <img
+                <Image
+                  width={40}
+                  height={40}
+                  alt="star-stroke"
                   src="/images/star-stoke.svg"
                   className="w-[40px] mx-auto h-[40px]"
                 />

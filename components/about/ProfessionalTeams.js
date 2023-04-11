@@ -86,7 +86,7 @@ export default function ProfessionalTeams() {
                   <div className="pb-4 mb-8 lg:mb-16 md:mb-12">
                     <div className="flex flex-col mx-4 bg-white shadow-xl">
                       <div className="relative w-full bg-no-repeat bg-cover group">
-                        <div className="2xl:h-[500px] lg:h-[420px] md:h-[360px] h-[220px]">
+                        <div className="2xl:h-[500px] lg:h-[420px] md:h-[360px] h-[260px]">
                         <img
                           src={cards.img}
                           className="w-full h-full"

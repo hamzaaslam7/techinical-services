@@ -76,7 +76,7 @@ export default function Slider2() {
               <div className="relative w-full active">
                 <img
                   src={Carousals.Image}
-                  className="block w-full 2xl:h-[700px] lg:h-[550px] md:h-[450px] h-[300px]"
+                  className="block w-full 2xl:h-screen lg:h-[620px] object-cover md:h-[450px] h-[300px]"
                   alt="Motorbike Smoke"
                 />
 
